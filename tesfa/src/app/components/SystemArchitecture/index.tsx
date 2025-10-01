@@ -24,8 +24,7 @@ export default function SystemArchitecture() {
               Backend (API & Model Serving)
             </h3>
             <p className="text-[#003333] mt-2">
-              Django REST API for business logic, data management, and
-              connection to AI models.
+            Django REST Framework handles API endpoints, managing HTTP requests, data serialization, validation, authentication, and permissions and connection to AI models.
             </p>
           </div>
         </div>
@@ -36,8 +35,8 @@ export default function SystemArchitecture() {
               AI Layer (Orchestrates LLMs)
             </h3>
             <p className="text-[#003333] mt-2">
-              BioGPT, SciBert, and GeoLLM process unstructured and generate
-              predictions and recommendations.
+              BioGPT process unstructured and generate
+              predictions and recommendations with the help of Google Gemini.
             </p>
           </div>
           <div>

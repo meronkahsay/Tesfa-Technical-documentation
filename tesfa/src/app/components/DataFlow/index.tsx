@@ -156,7 +156,7 @@ export default function DataFlow() {
       number: "1",
       details: [
         "Sources: Local NGO reports, Scientific literature and research articles",
-        "Process: ETL pipeline for cleaning, normalization, and validation",
+        "Process: HTML Processing,White space normalization,Recursive Text Extraction",
       ],
     },
     {

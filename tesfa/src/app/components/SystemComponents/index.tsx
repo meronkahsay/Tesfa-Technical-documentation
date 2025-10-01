@@ -5,8 +5,7 @@ export default function SystemComponents() {
       content: [
         "Combines multiple LLMs",
         "- BioGPT for biomedical text",
-        "- SciBert for scientific literature",
-        "- GeoLLM for geospatial reasoning",
+        "- Google Gemini",
         "Operates in three stages:",
         "- Ingestion",
         "- Reasoning",
