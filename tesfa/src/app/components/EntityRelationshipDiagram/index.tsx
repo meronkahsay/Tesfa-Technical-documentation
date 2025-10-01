@@ -1,7 +1,7 @@
 export default function EntityRelationship(){
 
     return(
-        <main className="px-25">
+        <main className="mt-20 md:px-25 px-5">
             <div>
         <h1 className="text-[#003333] md:text-6xl text-4xl">
 Entity Relationship Diagram

@@ -58,11 +58,13 @@ export default function SystemComponents() {
   ];
   const Card = ({ title, content }: { title: string; content: string[] }) => (
     <div className="flex border rounded-lg shadow-sm bg-white">
-      <div className="bg-[#8d7628] text-white flex items-center justify-center px-3 rounded-l-lg">
-        <span className="-rotate-90 whitespace-nowrap text-2xl font-medium tracking-wide">
+     
+      <div className="bg-[#0C4A4A] text-white flex items-center justify-center px-2 rounded-l-lg">
+        <span className="-rotate-90 whitespace-nowrap text-base md:text-lg font-medium tracking-wide">
           {title}
         </span>
       </div>
+    
       <div className="p-6 flex-1">
         <ul className="text-gray-800 text-sm leading-relaxed space-y-1">
           {content.map((c, idx) => (
@@ -73,21 +75,21 @@ export default function SystemComponents() {
     </div>
   );
   return (
-    <main className="min-h-screen px-25 bg-white flex flex-col items-center justify-center p-6">
-      <div className=" w-full relative grid gap-8">
-
-        <div className="grid md:grid-cols-2 gap-200">
+    <main className="min-h-screen px-4 md:px-12 bg-white flex flex-col items-center justify-center">
+      <div className="w-full max-w-6xl grid gap-8">
+        <div className="grid md:grid-cols-2 gap-6">
           {sectionsTop.map((sec, idx) => (
             <Card key={idx} title={sec.title} content={sec.content} />
           ))}
         </div>
-     
-        <div className="absolute left-140 top-20">
-          <h1 className="text-4xl md:text-6xl font-semibold text-gray-800 text-center">
+       
+        <div className="flex justify-center items-center">
+          <h1 className="text-3xl md:text-5xl font-semibold text-gray-800 text-center">
             System Components
           </h1>
         </div>
-        <div className="grid md:grid-cols-3 gap-8">
+       
+        <div className="grid md:grid-cols-3 gap-6">
           {sectionsBottom.map((sec, idx) => (
             <Card key={idx} title={sec.title} content={sec.content} />
           ))}
@@ -96,9 +98,4 @@ export default function SystemComponents() {
     </main>
   );
 }
-
-
-
-
-
 

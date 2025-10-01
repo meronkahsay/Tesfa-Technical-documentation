@@ -1,6 +1,6 @@
 export default function SetupInstructions() {
   return (
-    <section className="w-full px-6 md:px-16 py-12">
+    <section className="w-full mt-20 px-6 md:px-16 py-12">
       <h2 className="text-4xl md:text-6xl font-bold text-[#003333]">Setup Instructions</h2>
 
       <div className="mt-8">
@@ -46,7 +46,7 @@ export default function SetupInstructions() {
         </div>
       </div>
     
-      <div className="mt-12">
+      <div className="mt-20 mb-10">
 
         <div className="mb-6 flex flex-col items-start md:items-end">
           <div className="text-3xl md:text-4xl font-semibold text-[#003333]">Backend</div>

@@ -1,12 +1,12 @@
 export default function SystemArchitecture() {
   return (
-    <section className="w-full mt-12 px-6 md:px-20 py-12">
+    <section className="w-full mt-15 px-6 md:px-20 py-12">
  
-      <h2 className="text-4xl md:text-6xl font-bold text-center text-[#003333] mb-20">
+      <h2 className="text-4xl md:text-6xl font-bold text-center text-[#003333] mb-25">
         System <span className="text-[#D4A323]">Architecture</span>
       </h2>
    
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-25">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-30">
 
         <div className="space-y-8 text-2xl">
           <div>
