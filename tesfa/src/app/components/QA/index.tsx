@@ -9,7 +9,7 @@ export default function TestingQA() {
 
       <div className=" grid grid-cols-1 md:grid-cols-3 w-full md:px-50 md:py-20">
       
-        <div className="bg-[#004240] md:mb-45 text-white p-6 border-t-2 border-l-2 border-r-2 border-dashed border-[#C59D2C]">
+        <div className="bg-[#004240] md:mb-45 text-white   p-15  border-t-2 border-l-2 border-r-2 border-dashed border-[#C59D2C]">
           <h2 className="text-xl font-semibold md:text-4xl mb-5">Frontend (Jest)</h2>
           <p className="text-sm md:text-xl leading-relaxed">
             Unit tests for React dashboard components and UI snapshot tests
@@ -17,7 +17,7 @@ export default function TestingQA() {
           </p>
         </div>
       
-        <div className="bg-[#004240] text-white md:mt-45 p-6 border-b-2 border-l-2 border-r-2 border-dashed border-[#C59D2C]">
+        <div className="bg-[#004240] text-white md:mt-45 p-12 border-b-2 border-l-2 border-r-2 border-dashed border-[#C59D2C]">
           <h2 className="text-xl font-semibold md:text-4xl mb-5">Backend (Pytest)</h2>
           <p className="text-sm md:text-xl leading-relaxed">
             API endpoint and response validation, Database migration and schema
@@ -25,7 +25,7 @@ export default function TestingQA() {
           </p>
         </div>
       
-        <div className="bg-[#004240] md:mb-45 text-white p-6 border-t-2 border-l-2 border-r-2 border-dashed border-[#C59D2C]">
+        <div className="bg-[#004240] md:mb-45 text-white p-15 border-t-2 border-l-2 border-r-2 border-dashed border-[#C59D2C]">
           <h2 className="text-xl md:text-4xl font-semibold mb-5">Automation</h2>
           <p className="text-sm md:text-xl leading-relaxed">
             Continuous Integration (CI) pipeline runs Jest and Pytest on each

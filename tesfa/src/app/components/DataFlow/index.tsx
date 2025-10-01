@@ -48,7 +48,7 @@ export default function DataFlow() {
           >
         
             <div className="relative flex items-center justify-center">
-              <div className="w-40 h-40 md:w-50 md:h-50 rounded-full bg-[#0D3B3A] flex items-center justify-center text-white text-lg md:text-xl font-medium shadow-lg">
+              <div className="w-40 h-40 md:w-50 md:h-50 rounded-full bg-[#0D3B3A] flex items-center justify-center text-white text-lg md:text-2xl font-medium shadow-lg">
                 {step.title}
               </div>
             

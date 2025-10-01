@@ -12,28 +12,39 @@ import Users from './components/Users'
 import ProjectOverview from './components/ProjectOverview'
 import CodeStructurePage from './components/CodeStructure'
 import Footer from './components/Footer'
+import NamingConventions from './components/CodingStandard'
+import Deployment from './components/Deployment'
+
 
 const page = () => {
-  return (
-    <main>
+ return (
+   <main>
 <Home/>
 <Users/>
 <KeyFeatures/>
 <ProjectOverview/>
-<SystemComponents/>
 <SystemArchitecture/>
+<SetupInstructions/>
+<SystemComponents/>
 <EntityRelationship/>
 <DataFlow/>
 <CodeStructurePage/>
 <TestingQA/>
-<SetupInstructions/>
+<NamingConventions/>
+<Deployment/>
 <Footer/>
 
 
-    </main>
 
-  )
+
+   </main>
+
+
+ )
+
 
 }
 
+
 export default page
+
