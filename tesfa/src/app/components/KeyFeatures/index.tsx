@@ -1,9 +1,9 @@
 export default function KeyFeatures() {
   return (
-    <section className="w-full flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12 mt-25 gap-10">
+    <section className="w-full  flex flex-col md:flex-row items-center justify-between px-6 md:px-40 py-12 mt-45 gap-10">
     
-      <div className="w-full md:w-1/2 space-y-8">
-        <h2 className="md:text-6xl text-3xl mb-25 font-bold text-[#003333]">Key Features</h2>
+      <div className="w-full md:w-1/3 space-y-8">
+        <h2 className="md:text-6xl text-3xl mb-15 font-bold text-[#003333]">Key Features</h2>
         <div >
           <h3 className="md:text-4xl text-2xl font-semibold text-[#D4A323]">Summary</h3>
           <p className="text-[#003333] mt-1 text-2xl">

@@ -74,7 +74,7 @@ export default function SystemComponents() {
     </div>
   );
   return (
-    <main className="min-h-screen px-4 md:px-12 bg-white flex flex-col items-center justify-center">
+    <main id="system-components" className="min-h-screen px-4 md:px-12 bg-white flex flex-col items-center justify-center">
       <div className="w-full max-w-6xl grid gap-8">
         <div className="grid md:grid-cols-2 gap-6">
           {sectionsTop.map((sec, idx) => (

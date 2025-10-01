@@ -20,13 +20,13 @@ const page = () => {
 <Users/>
 <KeyFeatures/>
 <ProjectOverview/>
-<SystemArchitecture/>
-<SetupInstructions/>
 <SystemComponents/>
+<SystemArchitecture/>
 <EntityRelationship/>
 <DataFlow/>
 <CodeStructurePage/>
 <TestingQA/>
+<SetupInstructions/>
 <Footer/>
 
 
