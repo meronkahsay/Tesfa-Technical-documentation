@@ -34,7 +34,7 @@ export default function CodeStructurePage() {
  │  ├── url.py
  │  ├── views.py
  ├── locations/
- ├── medis/
+ ├── media/
  ├── organizations/
  ├── prediction/
  │  ├── __pycache__/
@@ -76,7 +76,7 @@ export default function CodeStructurePage() {
  ├── .github/
  │   └── workflows/
  │       └── pr_pull_request_template.md
- ├── testaf/
+ ├── testa/
  │   └── .next/
  │   └── node_modules/
  │   └── public/
