@@ -14,6 +14,7 @@ import CodeStructurePage from './components/CodeStructure'
 import Footer from './components/Footer'
 import NamingConventions from './components/CodingStandard'
 import Deployment from './components/Deployment'
+import SwaggerDocumentation from './components/SwaggerDocumentation'
 
 
 const page = () => {
@@ -28,6 +29,7 @@ const page = () => {
       <SystemComponents />
       <EntityRelationship />
       <DataFlow />
+       <SwaggerDocumentation/>
       <CodeStructurePage />
       <TestingQA />
       <NamingConventions />
