@@ -24,13 +24,13 @@ const page = () => {
       <Users />
       <KeyFeatures />
       <ProjectOverview />
-      <SystemArchitecture />
-      <SetupInstructions />
       <SystemComponents />
+      <SystemArchitecture />
       <EntityRelationship />
-      <DataFlow />
-       <SwaggerDocumentation/>
+      <SetupInstructions />
+      <SwaggerDocumentation/>
       <CodeStructurePage />
+      <DataFlow />
       <TestingQA />
       <NamingConventions />
       <Deployment />

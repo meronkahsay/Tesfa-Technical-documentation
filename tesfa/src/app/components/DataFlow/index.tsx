@@ -35,7 +35,7 @@ export default function DataFlow() {
     },
   ];
   return (
-    <main className="min-h-screen  bg-white flex flex-col mt-25 px-4 xl:px-22 py-12">
+    <main className="min-h-screen  bg-white flex flex-col mt-25 px-4 xl:px-40 py-12">
       <h1 className="text-4xl xl:text-6xl lg:ml-18 font-semibold text-gray-800 mb-16">
         Data Flow
       </h1>
@@ -45,7 +45,7 @@ export default function DataFlow() {
             key={idx}
             className="flex flex-col items-center text-center xl:w-1/4"
           >
-            <div className="relative flex items-center justify-center">
+            <div className="relative  flex  items-center justify-center">
               <div className="w-40 h-40 xl:w-50 xl:h-50 rounded-full bg-[#0D3B3A] flex items-center justify-center text-white text-lg xl:text-2xl font-medium shadow-lg">
                 {step.title}
               </div>

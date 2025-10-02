@@ -22,8 +22,8 @@ export default function Home() {
   };
 
   return (
-    <main className="lg:px-24 lg:py-20 bg-white">
-      <header className="lg:fixed lg:top-0 lg:left-0 lg:w-full lg:bg-white lg:z-50 flex justify-between items-center px-8 py-4 shadow-sm">
+    <main className="lg:px-40 lg:py-20 bg-white">
+      <header className="lg:fixed lg:top-0 lg:left-0  lg:w-full lg:bg-white lg:z-50 flex justify-between items-center px-8 py-4 shadow-sm">
         <div className="flex items-center gap-2">
           <div className="w-12 h-10 flex items-center justify-center">
             <img src={"/Images/Logo-blue.png"} alt="Logo" />
@@ -31,7 +31,7 @@ export default function Home() {
           <h1 className="text-2xl mt-5 font-light text-gray-800">Tesfa</h1>
         </div>
 
-        <nav className="hidden lg:flex gap-8 text-[#003D3B] lg:text-xl font-medium">
+        <nav className="hidden lg:flex gap-8 text-[#003D3B] lg:text-[16px] xl:text-xl mt-5 font-medium">
           {menuItems.map((item, i) => (
             <button
               key={i}
@@ -73,7 +73,7 @@ export default function Home() {
         </div>
       )}
 
-      <section className="flex flex-col lg:flex-row items-center justify-between px-10 lg:px-20 py-16">
+      <section className="flex flex-col lg:flex-row items-center justify-between py-16">
         <div className="lg:w-1/2 space-y-6">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#003D3B] leading-snug">
             Rebuilding <span className="text-[#C19300]">hope</span> with agentic <br /> health risk prediction
@@ -86,7 +86,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
+        <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-end">
           <Image
             src="/Images/global 2.png"
             alt="Globe"

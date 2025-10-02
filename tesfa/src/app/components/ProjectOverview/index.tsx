@@ -40,8 +40,9 @@ export default function ProjectOverview() {
               className="object-contain"
             />
           </div>
+          
           <h3 className="mt-6 text-2xl md:text-3xl font-semibold text-[#C59D2C]">
-            Informational Website
+            <a href="https://tesfa-sepia.vercel.app">Informational Website</a>
           </h3>
           <p className="mt-4 text-xl md:text-xl lg:text-2xl text-[#003D3B] leading-relaxed">
             The website highlights Tesfa&apos;s mission and key services, as well

@@ -1,7 +1,7 @@
 
 export default function SetupInstructions() {
   return (
-    <section className="w-full mt-35 px-6 lg:px-40">
+    <section className="w-full mt-55 px-6 lg:px-40">
       <h2 className="text-4xl md:text-6xl font-bold text-[#003333]">Setup Instructions</h2>
 
       <div className="mt-16">
@@ -20,7 +20,7 @@ export default function SetupInstructions() {
             <span>npm start</span>
           </div>
         
-          <div className="relative mt-6">
+          <div className="relative mt-6 ">
 
             <div className="flex items-center">
           
@@ -37,7 +37,7 @@ export default function SetupInstructions() {
             </div>
           </div>
        
-          <div className="flex xl:ml-72 xl:gap-77 justify-between text-[#003333] text-lg font-semibold mt-3">
+          <div className="flex  justify-between text-[#003333] text-lg font-semibold mt-3">
             <span>1</span>
             <span>2</span>
             <span>3</span>

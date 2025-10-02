@@ -4,7 +4,7 @@ import React from "react";
 
 export default function NamingConventions() {
  return (
-   <main className="min-h-screen  bg-white flex flex-col items-center py-10 px-12 ">
+   <main className="min-h-screen  bg-white flex flex-col items-center  py-10 px-12 ">
      <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2  gap-20">
 
        <div className="flex flex-col gap-8">

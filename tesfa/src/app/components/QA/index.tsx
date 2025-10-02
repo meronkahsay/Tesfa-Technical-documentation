@@ -1,11 +1,11 @@
 export default function TestingQA() {
   return (
-    <div id="testing-qa-assurance" className="min-h-screen mt-20  flex flex-col items-center px-6 justify-center py-10">
+    <div id="testing-qa-assurance" className=" flex flex-col items-center  justify-center py-10">
 
       <h1 className="text-3xl md:text-6xl font-bold text-center mb-10 text-[#003D3B]">
-        Testing & QA <span className="text-[#C59D2C]">Assurance</span>
+        Testing & <span className="text-[#C59D2C]">QA</span>
       </h1>
-      <div className="bg-[#004240] mt-15">
+      <div className="bg-[#004240] ">
 
         <div className=" grid grid-cols-1 md:grid-cols-3 w-full  lg:px-50 lg:py-20">
 
