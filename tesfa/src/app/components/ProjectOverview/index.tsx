@@ -1,13 +1,13 @@
 import Image from "next/image";
 export default function ProjectOverview() {
   return (
-    <div className="bg-white flex flex-col px-6 py-12  lg:px-40">
+    <div className="bg-white flex flex-col px-6 py-12 mt-20  lg:px-40">
   
       <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-12 text-[#003D3B] text-center lg:text-left">
         Project Overview
       </h2>
     
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 w-full">
+      <div className="grid grid-cols-1 lg:py-10 lg:grid-cols-3 gap-12 w-full">
    
         <div className="flex  flex-col lg:items-start  lg:text-left">
           <div className="w-full h-52 flex items-center  mb-10">

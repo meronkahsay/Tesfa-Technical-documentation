@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function SwaggerDocumentation() {
   return (
-    <main className="bg-[#0B4747] flex flex-col items-start justify-center px-4 py-12">
-      <section className="w-full px-40">
+    <main className="bg-[#0B4747]  flex flex-col items-start justify-center px-4 py-25">
+      <section className="w-full lg:px-40">
         <h1 className="text-5xl font-bold text-white mb-10" >
           Swagger Documentation
         </h1>
@@ -16,16 +16,16 @@ export default function SwaggerDocumentation() {
           <p className="text-white text-lg mb-8 lg:text-2xl">
             Click here to see the details:{" "}
             <a
-              href="https://tesfa-53blc4b2cf65.herokuapp.com/swagger/"
+              href="https://tesfa-53b1c4b2cf65.herokuapp.com/swagger/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline text-[#B2FFF7] hover:text-[#5EEAD4]"
             >
-              https://tesfa-53blc4b2cf65.herokuapp.com/swagger/
+             https://tesfa-53b1c4b2cf65.herokuapp.com/swagger/
             </a>
           </p>
         </div>
-        <div className="items-center text-center  py-25">
+        <div className="items-center text-center pt-26 ">
           <Image
             src="/Images/swagger.png"
             alt="Swagger endpoints full preview"

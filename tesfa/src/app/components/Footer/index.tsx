@@ -26,7 +26,7 @@ export default function Footer() {
   };
 
   return (
-    <footer id="contact-us-section" className="bg-[#004240] text-white px-6 py-12 mt-7 xl:mt-0  md:px-15">
+    <footer id="contact-us-section" className="bg-[#004240] text-white px-6 py-12 mt-7 xl:-mt-25  md:px-15">
       <div className="flex flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-between lg:pr-17">
         <div className="">
           <div className="flex items-center space-x-2 mb-8 sm:mb-15 ">
