@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function SwaggerDocumentation() {
   return (
-    <main className="bg-[#0B4747]  flex flex-col items-start justify-center px-4 py-25">
+    <main className="bg-[#0B4747] mt-40 flex flex-col items-start justify-center px-4 py-15">
       <section className="w-full lg:px-40">
         <h1 className="text-5xl font-bold text-white mb-10" >
           Swagger Documentation
