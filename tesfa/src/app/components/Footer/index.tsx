@@ -2,10 +2,10 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
-import {useRef, useEffect} from "react";
+import { useRef, useEffect } from "react";
 
 export default function Footer() {
- const form = useRef<HTMLFormElement>(null);
+  const form = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     emailjs.init("DYVsRNFQ75C3lYDYB");
@@ -26,7 +26,7 @@ export default function Footer() {
   };
 
   return (
-    <footer id="contact-us-section" className="bg-[#004240] text-white px-6 py-12 md:-mt-40  md:px-15">
+    <footer id="contact-us-section" className="bg-[#004240] text-white px-6 py-12 mt-7 xl:mt-0  md:px-15">
       <div className="flex flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-between lg:pr-17">
         <div className="">
           <div className="flex items-center space-x-2 mb-8 sm:mb-15 ">
@@ -57,7 +57,7 @@ export default function Footer() {
           <h2 className="font-semibold mb-5 text-3xl sm:mb-15 text-left md:text-6xl lg:text-[40px] lg:text-center ">
             Get in touch
           </h2>
-            <form ref={form} className="space-y-4" onSubmit={sendEmail}>
+          <form ref={form} className="space-y-4" onSubmit={sendEmail}>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input
                 type="text"

@@ -1,3 +1,4 @@
+
 export default function SetupInstructions() {
   return (
     <section className="w-full  px-6 md:px-40">
@@ -12,11 +13,11 @@ export default function SetupInstructions() {
         <div className="w-full ">
          
           <div className="flex justify-between mt-20 text-[#003333] md:text-3xl font-medium">
-            <span className="shrink-0">cd frontend</span>
-            <span className="shrink-0">npm install</span>
-            <span className="shrink-0">npm run dev</span>
-            <span className="shrink-0">npm run build</span>
-            <span className="shrink-0">npm start</span>
+            <span>cd frontend</span>
+            <span>npm install</span>
+            <span>npm run dev</span>
+            <span>npm run build</span>
+            <span>npm start</span>
           </div>
         
           <div className="relative mt-6">
@@ -29,14 +30,14 @@ export default function SetupInstructions() {
                   className={
                     i % 2 === 0
                       ? "h-[3px] flex-1 bg-[#D4A323]"
-                      : "w-4 h-4 ml-5 rounded-full bg-[#D4A323]"
+                      : "w-4 h-4 ml-5 mr-5 rounded-full bg-[#D4A323]"
                   }
                 />
               ))}
             </div>
           </div>
        
-          <div className="flex justify-between text-[#003333] text-lg font-semibold mt-3">
+          <div className="flex xl:ml-72 xl:gap-77 justify-between text-[#003333] text-lg font-semibold mt-3">
             <span>1</span>
             <span>2</span>
             <span>3</span>

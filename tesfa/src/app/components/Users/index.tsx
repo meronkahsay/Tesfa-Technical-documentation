@@ -2,10 +2,10 @@ import Image from "next/image";
 export default function Users() {
   return (
     <div className=" bg-white flex items-center justify-center px-6 ">
-      <div className=" md:px-35 w-full grid grid-cols-1 md:grid-cols-2 md:gap-25 gap-8 items-center">
- 
-        <div className="md:mt-40 grid grid-cols-2 gap-4">
-          
+      <div className=" lg:px-35 w-full grid grid-cols-1 md:grid-cols-2 md:gap-25 gap-8 items-center">
+
+        <div className=" grid grid-cols-2 gap-4">
+
           <div className="border border-[#C59D2C] flex items-center justify-center p-4 bg-white">
             <Image
               src="/Images/who 1.png"
@@ -15,7 +15,7 @@ export default function Users() {
               className="object-contain"
             />
           </div>
-      
+
           <div className="border md:mt-15 md:h-45 border-[#C59D2C] flex items-center justify-center p-4 bg-white">
             <Image
               src="/Images/RedCross.png"
@@ -25,7 +25,7 @@ export default function Users() {
               className="object-contain"
             />
           </div>
-      
+
           <div className="col-span-2 border border-[#C59D2C] flex items-center justify-center p-4 bg-white">
             <Image
               src="/Images/SaveChildren.png"
@@ -36,12 +36,12 @@ export default function Users() {
             />
           </div>
         </div>
-    
-        <div className="text-center md:text-left">
-          <h2 className="text-2xl text-end md:text-6xl font-bold text-[#003D3B]">
+
+        <div className="text-center mt-15 md:text-left">
+          <h2 className="text-4xl lg:text-end md:text-6xl font-bold text-[#003D3B]">
             Who Are Our <span className="text-[#C59D2C]">Users?</span>
           </h2>
-          <p className="mt-15 text-[#003D3B] text-sm md:text-2xl text-end leading-relaxed">
+          <p className="mt-15 text-[#003D3B] text-xl md:text-2xl lg:text-end leading-relaxed">
             Our main users are NGOs and humanitarian agencies focused on
             rebuilding post-conflict communities. Tesfa equips them with
             AI-powered insights, risk maps, and intervention tracking, helping

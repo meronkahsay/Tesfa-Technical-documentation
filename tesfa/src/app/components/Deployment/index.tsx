@@ -8,7 +8,7 @@ const darkTeal = "#00353D";
 
 export default function Deployment() {
  return (
-   <main className="min-h-screen mt-55 bg-white flex  flex-col">
+   <main id="deployment" className="min-h-screen mt-55 bg-white flex  flex-col">
      
      <div className="bg-[#00353D] w-full px-40 pt-20 pb-45 ">
        <h1 className="text-white text-4xl md:text-6xl mt-5 font-light">Deployment Methods</h1>
@@ -25,6 +25,7 @@ export default function Deployment() {
                style={{ marginTop: 15 }}
              />
            }
+           
            text={
              <>
                The frontend dashboard is integrated

@@ -1,47 +1,97 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
-export default function CodeStructurePage() {
+import { HiMenu, HiX } from "react-icons/hi";
+export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+  const menuItems = [
+    "System Components",
+    "System Architecture",
+    "Code Structure",
+    "Testing & QA Assurance",
+    "Deployment",
+  ];
   return (
-    <div className="max-w-[100rem] mt-12 mx-auto">
-
-      <div className="flex justify-between items-start w-full mb-20">
-  
-        <div className="flex items-center space-x-3  ml-10">
-
-          <Image src="/Images/Logo-blue.png" alt="Tesfa Logo" width={70} height={70} />
-          <span className="text-4xl mt-7 font-light text-[#00353D]">Tesfa</span>
-        </div>
-     
-        <nav className="flex space-x-12 mt-8">
-          <a href="#system-components" className="text-[#00353D] font-semibold text-xl  hover:text-[#B88704] ">System Components</a>
-          <a href="#system-architecture" className="text-[#00353D] font-semibold text-xl  hover:text-[#B88704]">System Architecture</a>
-          <a href="#code-structure" className="text-[#00353D] font-semibold text-xl  hover:text-[#B88704]">Code Structure</a>
-          <a href="#testing" className="text-[#00353D] font-semibold text-xl  hover:text-[#B88704]">Testing & QA Assurance</a>
-          <a href="#deployment" className="text-[#00353D] font-semibold text-xl  hover:text-[#B88704]">Deployment</a>
-        </nav>
-      </div>
+    <main className=" lg:px-24 lg:py-20 bg-white">
     
-      <div className="flex flex-col md:flex-row justify-between items-start w-full">
-        <div className="flex-1 mt-10 ml-10">
-          <h1 className="text-5xl font-bold md:text-6xl font-semi-bold text-[#00353D] mb-4 leading-tight">
-            Rebuilding <span className="text-[#B88704] font-semi-bold">hope</span> with agentic<br />
-            health risk prediction
-          </h1>
-          <p className="text-lg md:text-xl text-[#00353D] max-w-2xl leading-relaxed mt-6">
-            Tesfa is an agentic AI platform built to empower NGOs working in post-conflict regions. By integrating predictive analytics, risk modeling, and interactive data visualization, Tesfa enables users to identify, monitor, and proactively address long-term health and environmental risks stemming from war and conflict.
+      <header className="lg:fixed lg:top-0 lg:left-0 lg:w-full lg:bg-white lg:z-50 flex justify-between items-center px-8 py-4 shadow-sm">
+       
+        <div className="flex items-center gap-2">
+          <div className="w-12 h-12 flex items-center justify-center">
+            <img src={"/Images/Logo-blue.png"} alt="Logo" />
+          </div>
+          <h1 className="text-2xl mt-5 font-light text-gray-800">Tesfa</h1>
+        </div>
+      
+        <nav className="hidden lg:flex gap-8 text-[#003D3B] lg:text-xl font-medium">
+          {menuItems.map((item, i) => (
+            <a key={i} href="#" className="relative group">
+              {item}
+              <span className="absolute  left-0 bottom-0 w-0 h-[2px] bg-[#C59D2C] transition-all group-hover:w-full"></span>
+            </a>
+          ))}
+        </nav>
+     
+        <button
+          className="lg:hidden text-[#003D3B] text-3xl"
+          onClick={() => setIsOpen(true)}
+        >
+          <HiMenu />
+        </button>
+      </header>
+    
+      {isOpen && (
+        <div className="fixed inset-0 w-full px-15 py-30 h-full bg-white z-50 flex flex-col  space-y-8 text-2xl font-medium">
+         
+          <button
+            className="absolute top-6 left-78 text-4xl text-gray-700"
+            onClick={() => setIsOpen(false)}
+          >
+            <HiX />
+          </button>
+          {menuItems.map((item, i) => (
+            <a
+              key={i}
+              href="#"
+              onClick={() => setIsOpen(false)}
+              className="relative group"
+            >
+              {item}
+              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all  group-hover:w-full"></span>
+            </a>
+          ))}
+        </div>
+      )}
+     
+      <section className="flex flex-col lg:flex-row items-center justify-between px-10 lg:px-20 py-16">
+     
+        <div className="lg:w-1/2 space-y-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-[#003D3B] leading-snug">
+            Rebuilding <span className="text-yellow-500">hope</span> with agentic <br /> health risk prediction
+          </h2>
+          <p className="text-[#003D3B] lg:text-2xl text-xl leading-relaxed">
+            Tesfa is an agentic AI platform built to empower NGOs working in post-conflict regions.
+            By integrating predictive analytics, risk modeling, and interactive data visualization,
+            Tesfa enables users to identify, monitor, and proactively address long-term health and
+            environmental risks stemming from war and conflict.
           </p>
         </div>
-        <div className="flex-1 flex justify-end mt-10 md:mt-0">
-
+      
+        <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
           <Image
             src="/Images/global 2.png"
             alt="Globe"
-            width={540}
-            height={540}
-            className="object-contain"
+            width={500}
+            height={500}
+            className="max-w-full h-auto"
           />
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
+
+
+
+
+

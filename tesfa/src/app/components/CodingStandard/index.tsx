@@ -4,12 +4,12 @@ import React from "react";
 
 export default function NamingConventions() {
  return (
-   <main className="min-h-screen bg-white flex flex-col items-center py-10 px-2 md:px-0">
+   <main className="min-h-screen  bg-white flex flex-col items-center py-10 px-12 ">
      <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2  gap-20">
 
        <div className="flex flex-col gap-8">
 
-         <section className="bg-[#B88704] text-white rounded-md border border-[#B88704] p-8 shadow-md">
+         <section className="bg-[#B88704] text-white xl:w-160 rounded-md border border-[#B88704] p-8 shadow-md">
            <h2 className="text-3xl md:text-5xl font-light mb-4 tracking-wide">Frontend</h2>
 
            <p className="md:text-3xl py-4">Structure & Functions</p>
@@ -89,13 +89,13 @@ export default function NamingConventions() {
    
        <div className="flex flex-col gap-8">
       
-         <section className="flex items-center justify-center h-full border border-[#B88704] rounded-md bg-white p-8 shadow-md min-h-[210px]">
+         <section className="flex items-center justify-center xl:h-160 border border-[#B88704] rounded-md bg-white p-8 shadow-md min-h-[210px]">
            <h1 className="text-4xl md:text-6xl font-bold text-[#00353D] text-center leading-relaxed">
              Naming<br />Conventions &amp;<br />Coding Standards
            </h1>
          </section>
   
-         <section className="bg-[#00353D] text-white rounded-md border border-cyan-800 p-8 shadow-md">
+         <section className="bg-[#00353D] text-white rounded-md border border-cyan-800 p-21 xl:-170 shadow-md">
            <h2 className="text-2xl md:text-5xl font-light mb-4 tracking-wide">Backend</h2>
 
            <p className="md:text-3xl py-4">Structure & Functions</p>
@@ -129,10 +129,4 @@ export default function NamingConventions() {
  );
 }
 
-
-function SubSection({ title }: { title: string }) {
- return (
-   <div className="font-semibold text-lg mb-1 mt-4 tracking-wide">{title}</div>
- );
-}
 

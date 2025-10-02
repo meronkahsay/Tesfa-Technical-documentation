@@ -81,3 +81,16 @@ h1{
 .hide-scrollbar::-webkit-scrollbar {
   display: none; 
 } */
+
+
+        .writing-vertical {
+          writing-mode: horizontal-tb;
+          text-orientation: mixed;
+        }
+        @media (min-width: 768px) {
+          .writing-vertical {
+            writing-mode: vertical-rl;
+          }
+        }
+   
+        

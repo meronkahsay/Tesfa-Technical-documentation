@@ -17,30 +17,30 @@ import Deployment from './components/Deployment'
 
 
 const page = () => {
- return (
-   <main>
-<Home/>
-<Users/>
-<KeyFeatures/>
-<ProjectOverview/>
-<SystemArchitecture/>
-<SetupInstructions/>
-<SystemComponents/>
-<EntityRelationship/>
-<DataFlow/>
-<CodeStructurePage/>
-<TestingQA/>
-<NamingConventions/>
-<Deployment/>
-<Footer/>
+  return (
+    <main>
+      <Home />
+      <Users />
+      <KeyFeatures />
+      <ProjectOverview />
+      <SystemArchitecture />
+      <SetupInstructions />
+      <SystemComponents />
+      <EntityRelationship />
+      <DataFlow />
+      <CodeStructurePage />
+      <TestingQA />
+      <NamingConventions />
+      <Deployment />
+      <Footer />
 
 
 
 
-   </main>
+    </main>
 
 
- )
+  )
 
 
 }
