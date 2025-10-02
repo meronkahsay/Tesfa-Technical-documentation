@@ -10,12 +10,12 @@ export default function Deployment() {
  return (
    <main id="deployment" className="min-h-screen mt-55 bg-white flex  flex-col">
      
-     <div className="bg-[#00353D] w-full px-40 pt-20 pb-45 ">
+     <div className="bg-[#00353D] w-full px-4 lg:px-40 pt-20 pb-45 ">
        <h1 className="text-white text-4xl md:text-6xl mt-5 font-light">Deployment Methods</h1>
      </div>
      
      <div className="w-full flex justify-center items-start -mt-20 ">
-       <div className="flex flex-col  md:flex-row justify-center items-start gap-30 md:gap-50 w-full max-w-6xl px-6">
+       <div className="flex flex-col    md:flex-row justify-center items-start gap-30 md:gap-20 w-full max-w-8xl px-6">
          <DeploymentStep
            icon={
              <img
@@ -93,7 +93,7 @@ function DeploymentStep({ icon, text }: { icon: React.ReactNode; text: React.Rea
        {icon}
      </div>
    
-    <div className="mt-12 text-[17px] md:text-[16px] text-[#00353D] font-medium max-w-xs w-full mx-auto text-left">
+    <div className="mt-12 text-[17px]  md:text-[20px] text-[#00353D] xl:text-2xl font-medium max-w-xs w-full mx-auto ">
  {text}
 </div>
    </div>

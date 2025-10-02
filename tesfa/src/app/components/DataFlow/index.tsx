@@ -35,11 +35,11 @@ export default function DataFlow() {
     },
   ];
   return (
-    <main className="min-h-screen bg-white flex flex-col mt-25 px-4 xl:px-22 py-12">
-      <h1 className="text-4xl xl:text-6xl ml-18 font-semibold text-gray-800 mb-16">
+    <main className="min-h-screen  bg-white flex flex-col mt-25 px-4 xl:px-22 py-12">
+      <h1 className="text-4xl xl:text-6xl lg:ml-18 font-semibold text-gray-800 mb-16">
         Data Flow
       </h1>
-      <div className="flex flex-col xl:flex-row items-center xl:items-stretch justify-between w-full gap-12 xl:gap-6 mt-20">
+      <div className="flex flex-col xl:flex-row items-center xl:items-stretch justify-between w-full gap-12 xl:gap-6  mt-20">
         {steps.map((step, idx) => (
           <div
             key={idx}
@@ -54,7 +54,7 @@ export default function DataFlow() {
                 {step.number}
               </div>
             </div>
-            <ul className="text-sm xl:text-xl text-[#003333] leading-relaxed mt-25 text-left list-disc list-outside pl-4 ml-10 marker:text-[#C19300]">
+            <ul className="text-sm  md:text-xl text-[#003333] leading-relaxed mt-25 text-left list-disc list-outside pl-4 ml-10 marker:text-[#C19300]">
               {step.details.map((detail, i) => (
                 <li key={i}>{detail}</li>
               ))}

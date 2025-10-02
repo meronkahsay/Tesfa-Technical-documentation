@@ -1,13 +1,13 @@
 
 export default function SetupInstructions() {
   return (
-    <section className="w-full  px-6 md:px-40">
+    <section className="w-full mt-35 px-6 lg:px-40">
       <h2 className="text-4xl md:text-6xl font-bold text-[#003333]">Setup Instructions</h2>
 
       <div className="mt-16">
         <div className="mb-6">
           <h3 className="text-3xl md:text-4xl font-semibold text-[#003333]">Frontend</h3>
-          <div className="h-[3px] w-24 bg-[#D4A323] mt-1" />
+          <div className="h-[3px] w-35 bg-[#D4A323] mt-1" />
         </div>
     
         <div className="w-full ">
@@ -47,37 +47,37 @@ export default function SetupInstructions() {
         </div>
       </div>
     
-      <div className="mt-35 mb-10">
+      <div className="mt-35  text-center mb-10">
 
         <div className="mb-16 flex flex-col items-start md:items-end">
           <div className="text-3xl md:text-4xl font-semibold text-[#003333]">Backend</div>
-          <div className="h-[3px] w-24 bg-[#D4A323] mt-1" />
+          <div className="h-[3px] w-31 bg-[#D4A323] mt-1" />
         </div>
     
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6">
      
-          <div className="bg-[#003333] mb-15 text-white p-4 rounded-md shadow-sm">
+          <div className="bg-[#003333] mb-15  text-white px-4 py-6 rounded-md shadow-sm">
             <div className="font-semibold mb-1 ">1. Navigate to backend directory</div>
             <code className="block text-sm ">cd backend</code>
           </div> 
        
-          <div className="bg-[#D4A323] mt-15 md:text-xl text-white p-4  rounded-md shadow-sm">
+          <div className="bg-[#D4A323] px-4 py-6 mt-15 md:text-xl text-white  rounded-md shadow-sm">
             <div className="font-semibold mb-1">2. Create virtual environment</div>
             <code className="block text-sm">python -m venv venv</code>
             <code className="block text-sm ">source venv/bin/activate</code>
           </div>
        
-          <div className="bg-[#003333] md:text-xl mb-15 text-white p-4 rounded-md shadow-sm">
+          <div className="bg-[#003333] md:text-xl px-4 py-6 mb-15 text-white rounded-md shadow-sm">
             <div className="font-semibold mb-1">3. Install dependencies</div>
             <code className="block text-sm">pip install -r requirements.txt</code>
           </div>
     
-          <div className="bg-[#D4A323] mt-15 md:text-xl text-white p-4 rounded-md shadow-sm">
+          <div className="bg-[#D4A323] mt-15 md:text-xl text-white px-4 py-6 rounded-md shadow-sm">
             <div className="font-semibold mb-1">4. Run migrations</div>
             <code className="block text-sm">python manage.py migrate</code>
           </div>
        
-          <div className="bg-[#003333] mb-15 md:text-xl text-white p-4 rounded-md shadow-sm">
+          <div className="bg-[#003333] mb-15 md:text-xl text-white px-4 py-6 rounded-md shadow-sm">
             <div className="font-semibold mb-1">5. Start dev server</div>
             <code className="block text-sm">python manage.py runserver</code>
           </div>

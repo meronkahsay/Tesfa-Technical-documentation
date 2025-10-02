@@ -10,9 +10,9 @@ export default function NamingConventions() {
        <div className="flex flex-col gap-8">
 
          <section className="bg-[#B88704] text-white xl:w-160 rounded-md border border-[#B88704] p-8 shadow-md">
-           <h2 className="text-3xl md:text-5xl font-light mb-4 tracking-wide">Frontend</h2>
+           <h2 className="text-3xl md:text-5xl font-light mb-4">Frontend</h2>
 
-           <p className="md:text-3xl py-4">Structure & Functions</p>
+           <p className="md:text-3xl">Structure & Functions</p>
            <ul className="list-disc pl-6 mb-4 space-y-1 md:text-xl text-base">
              <li>
                Uses functional components (<span className="font-mono">function ComponentName() &#123; ... &#125;</span>).
@@ -28,7 +28,7 @@ export default function NamingConventions() {
              </li>
            </ul>
 
-           <p className="md:text-3xl py-4">Naming Conventions</p>
+           <p className="md:text-3xl">Naming Conventions</p>
            <ul className="list-disc pl-6 mb-4 space-y-1 md:text-xl text-base">
              <li>
                Functions: <span className="font-mono">camelCase</span> (<span className="italic">handleChange, togglePasswordVisibility</span>)
@@ -41,7 +41,7 @@ export default function NamingConventions() {
              </li>
            </ul>
            
-           <p className="md:text-3xl py-4"> Standards</p>
+           <p className="md:text-3xl"> Standards</p>
            <ul className="list-disc pl-6 space-y-1 md:text-xl text-base">
              <li>
                <b>Exports:</b> Default export for components.
@@ -61,15 +61,15 @@ export default function NamingConventions() {
          <section className="bg-yellow-50 text-[#B88704] rounded-md border border-[#B88704] p-8 shadow-md">
            <h2 className="text-2xl md:text-5xl font-light mb-4 tracking-wide">AI</h2>
            
-           <p className="md:text-3xl py-4">Structure & Functions</p>
-           <ul className="list-disc md:text-xl pl-6 mb-4 space-y-1 text-base">
+           <p className="md:text-3xl">Structure & Functions</p>
+           <ul className="list-disc md:text-xl pl-6 mb-4 text-base">
              <li>Functions are defined with <span className="font-mono">def</span> and use type annotations.</li>
              <li>Uses clear, descriptive docstrings for functions.</li>
              <li>Utility/helper functions are grouped in <span className="font-mono">tools.py</span>.</li>
            </ul>
 
-           <p className="md:text-3xl py-4">Naming Conventions</p>
-           <ul className="list-disc pl-6 mb-4 md:text-xl space-y-1 text-base">
+           <p className="md:text-3xl">Naming Conventions</p>
+           <ul className="list-disc pl-6 mb-4 md:text-xl  text-base">
              <li>
                Functions: <span className="font-mono">snake_case</span> (<span className="italic">get_bios_gpt, retrieve_context</span>)
              </li>
@@ -78,8 +78,8 @@ export default function NamingConventions() {
            </ul>
 
            
-           <p className="md:text-3xl py-4">Standards</p>
-           <ul className="list-disc pl-6 md:text-xl space-y-1 text-base">
+           <p className="md:text-3xl">Standards</p>
+           <ul className="list-disc pl-6 md:text-xl text-base">
              <li>Explicit error handling and logging.</li>
              <li>Type hints and docstrings for better maintainability.</li>
              <li>Modular: Each logical unit in its own function or class.</li>
@@ -89,23 +89,23 @@ export default function NamingConventions() {
    
        <div className="flex flex-col gap-8">
       
-         <section className="flex items-center justify-center xl:h-160 border border-[#B88704] rounded-md bg-white p-8 shadow-md min-h-[210px]">
+         <section className="flex items-center justify-center border border-[#B88704] rounded-md bg-white py-30  shadow-md min-h-[210px]">
            <h1 className="text-4xl md:text-6xl font-bold text-[#00353D] text-center leading-relaxed">
              Naming<br />Conventions &amp;<br />Coding Standards
            </h1>
          </section>
   
-         <section className="bg-[#00353D] text-white rounded-md border border-cyan-800 p-21 xl:-170 shadow-md">
+         <section className="bg-[#00353D] text-white rounded-md border border-cyan-800 p-12 py-18 xl:-170 shadow-md">
            <h2 className="text-2xl md:text-5xl font-light mb-4 tracking-wide">Backend</h2>
 
-           <p className="md:text-3xl py-4">Structure & Functions</p>
+           <p className="md:text-3xl">Structure & Functions</p>
            <ul className="list-disc pl-6 mb-4 space-y-1 md:text-xl text-base">
              <li>Uses Django conventions: <span className="font-mono">views</span>, <span className="font-mono">models</span>, and URL routing.</li>
              <li>Functions are defined using <span className="font-mono">def</span> and follow <span className="font-mono">snake_case</span>.</li>
              <li>URL config in <span className="font-mono">urls.py</span> uses descriptive names for routes.</li>
            </ul>
 
-           <p className="md:text-3xl py-4">Naming Conventions</p>
+           <p className="md:text-3xl">Naming Conventions</p>
            <ul className="list-disc pl-6 md:text-xl mb-4 space-y-1 text-base">
              <li>
                Functions: <span className="font-mono">snake_case</span> (<span className="italic">get_user_data</span>)
@@ -116,7 +116,7 @@ export default function NamingConventions() {
              <li>Variables: <span className="font-mono">snake_case</span></li>
            </ul>
           
-           <p className="md:text-3xl py-4">Standards</p>
+           <p className="md:text-3xl">Standards</p>
            <ul className="md:text-xl list-disc pl-6 space-y-1 text-base">
              <li>Modular apps and clear separation of concerns.</li>
              <li>Default Django documentation style for files.</li>

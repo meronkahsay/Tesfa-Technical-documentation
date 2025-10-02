@@ -3,15 +3,15 @@
 import React from "react";
 export default function SystemComponents() {
   return (
-    <div className="bg-white flex flex-col items-center justify-center md:px-40 px-6 py-12">
+    <div id="system-components" className="bg-white mt-55 flex flex-col items-center justify-center lg:px-40 px-6 py-12">
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 xl:gap-10 mt-8 items-start">
     
-        <div className="border rounded-lg shadow-sm">
+        <div className="border border-[#CEA524] rounded-lg shadow-sm">
           <div className="flex flex-col md:flex-row">
             <div className="bg-[#CEA524] text-white font-medium p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-center text-base md:text-xl xl:text-3xl writing-vertical">
               Agentic AI Layer
             </div>
-            <div className="p-6 text-gray-800 text-sm md:text-2xl w-full md:ml-4 md:w-auto">
+            <div className="p-6 lg:py-13 text-gray-800 text-sm md:text-2xl w-full md:ml-4 md:w-auto">
               <p>Combines multiple LLMs</p>
               <ul className="list-disc list-inside">
                 <li>BioGPT for biomedical text</li>
@@ -27,13 +27,13 @@ export default function SystemComponents() {
           </div>
         </div>
      
-        <div className="flex items-center justify-center text-center xl:col-start-2">
-          <h2 className="text-3xl md:text-6xl font-semibold text-[#003D3B] leading-snug">
+        <div className="flex items-center justify-center text-center xl:mt-18 xl:col-start-2">
+          <h2 className="text-3xl md:text-7xl font-semibold text-[#003D3B] leading-snug">
             System <br /> Components
           </h2>
         </div>
     
-        <div className="border rounded-lg shadow-sm">
+        <div className="border border-[#CEA524] rounded-lg shadow-sm">
           <div className="flex flex-col md:flex-row">
             <div className="bg-[#CEA524] text-white font-medium rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-center p-4 text-base md:text-xl xl:text-3xl writing-vertical">
               Dashboard
@@ -50,7 +50,7 @@ export default function SystemComponents() {
           </div>
         </div>
      
-        <div className="border rounded-lg shadow-sm">
+        <div className="border border-[#CEA524] rounded-lg shadow-sm">
           <div className="flex flex-col md:flex-row">
             <div className="bg-[#CEA524] text-white font-medium text-center p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-base md:text-xl xl:text-3xl writing-vertical">
               Backend (API)
@@ -71,12 +71,12 @@ export default function SystemComponents() {
           </div>
         </div>
      
-        <div className="border rounded-lg shadow-sm">
-          <div className="flex flex-col md:flex-row">
+        <div className="border border-[#CEA524] rounded-lg shadow-sm">
+          <div className="flex flex-col  md:flex-row">
             <div className="bg-[#CEA524] text-white font-medium text-center p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-base md:text-xl xl:text-3xl writing-vertical">
               Security
             </div>
-            <div className="p-6 text-gray-800 text-sm md:text-2xl w-full md:ml-4 md:w-auto">
+            <div className="lg:py-26 p-6 text-gray-800 text-sm md:text-2xl w-full md:ml-4 md:w-auto">
               <ul className="list-disc list-inside">
                 <li>Encrypted passwords</li>
                 <li>Secure session management</li>
@@ -87,12 +87,12 @@ export default function SystemComponents() {
           </div>
         </div>
       
-        <div className="border rounded-lg shadow-sm">
+        <div className="border border-[#CEA524] rounded-lg shadow-sm">
           <div className="flex flex-col md:flex-row">
             <div className="bg-[#CEA524] text-white font-medium text-center p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-base md:text-xl xl:text-3xl writing-vertical">
               External Integrations
             </div>
-            <div className="p-6 text-gray-800 text-sm md:text-2xl w-full md:ml-4 md:w-auto">
+            <div className="xl:py-21 p-6 text-gray-800 text-sm md:text-2xl w-full md:ml-4 md:w-auto">
               <p>OpenStreetMap Nominatim API</p>
               <p className="mt-2">
                 Integrated for geocoding and reverse geocoding capabilities, the

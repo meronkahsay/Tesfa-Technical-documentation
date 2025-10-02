@@ -1,6 +1,6 @@
 export default function SystemArchitecture() {
   return (
-    <section id="system-architecture" className="w-full px-6 md:px-40 mt-30 ">
+    <section id="system-architecture" className="w-full px-6 lg:px-40 mt-30 ">
  
       <h2 className="text-4xl md:text-6xl font-bold text-center text-[#003333] mb-25">
         System <span className="text-[#D4A323]">Architecture</span>
