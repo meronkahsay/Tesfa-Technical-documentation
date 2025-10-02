@@ -74,15 +74,6 @@ h1{
   background-color: #ddbb5e; }
 
 
-/* .hide-scrollbar {
-  scrollbar-width: none; 
-}
-
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; 
-} */
-
-
         .writing-vertical {
           writing-mode: horizontal-tb;
           text-orientation: mixed;

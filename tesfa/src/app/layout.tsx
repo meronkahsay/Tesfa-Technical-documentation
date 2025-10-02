@@ -5,21 +5,11 @@ import { Josefin_Sans } from "next/font/google";
 import { Ubuntu } from "next/font/google";
 import { icons } from "lucide-react";
 
-const ubuntu = Ubuntu({
-  subsets:["latin"],
-  weight:["300","400","500","700"],
-  variable:"--font-ubuntu",
-})
 
 const josefin = Josefin_Sans({
 subsets:["latin"],
 weight:["300"],
 variable:"--font-josefin",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
