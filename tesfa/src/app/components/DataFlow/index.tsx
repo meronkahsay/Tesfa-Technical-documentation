@@ -35,8 +35,8 @@ export default function DataFlow() {
     },
   ];
   return (
-    <main className="min-h-screen  bg-white flex flex-col mt-25 px-4 xl:px-40 py-12">
-      <h1 className="text-4xl xl:text-6xl lg:ml-18 font-semibold text-gray-800 mb-16">
+    <main className="bg-white flex flex-col mt-25 px-4 xl:px-40 py-12">
+      <h1 className="text-4xl xl:text-6xl font-semibold text-gray-800 mb-16">
         Data Flow
       </h1>
       <div className="flex flex-col xl:flex-row items-center xl:items-stretch justify-between w-full gap-12 xl:gap-6  mt-20">

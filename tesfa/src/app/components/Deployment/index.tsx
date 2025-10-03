@@ -2,13 +2,10 @@
 import React from "react";
 
 
-const gold = "#B88704";
-const darkTeal = "#00353D";
-
 
 export default function Deployment() {
  return (
-   <main id="deployment" className="min-h-screen mt-55 bg-white flex  flex-col">
+   <main id="deployment" className=" mt-20 bg-white flex  flex-col">
      
      <div className="bg-[#00353D] w-full px-4 lg:px-40 pt-20 pb-45 ">
        <h1 className="text-white text-4xl md:text-6xl mt-5 font-light">Deployment Methods</h1>

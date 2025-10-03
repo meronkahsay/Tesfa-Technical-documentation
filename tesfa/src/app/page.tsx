@@ -7,7 +7,6 @@ import SystemComponents from './components/SystemComponents'
 import EntityRelationship from './components/EntityRelationshipDiagram'
 import DataFlow from './components/DataFlow'
 import TestingQA from './components/QA'
-import { User } from 'lucide-react'
 import Users from './components/Users'
 import ProjectOverview from './components/ProjectOverview'
 import CodeStructurePage from './components/CodeStructure'
@@ -15,6 +14,10 @@ import Footer from './components/Footer'
 import NamingConventions from './components/CodingStandard'
 import Deployment from './components/Deployment'
 import SwaggerDocumentation from './components/SwaggerDocumentation'
+import TesfaAgent from './components/TesfaAgent'
+import DeploymentDetail from './components/DeploymentDetail'
+import ToolsUtilities from './components/AgentDefinition'
+import FrontendDeployment from './components/FrontendDeployment'
 
 
 const page = () => {
@@ -28,25 +31,19 @@ const page = () => {
       <SystemArchitecture />
       <EntityRelationship />
       <SetupInstructions />
-      <SwaggerDocumentation/>
+      <SwaggerDocumentation />
       <CodeStructurePage />
       <DataFlow />
+      <TesfaAgent />
+      <ToolsUtilities />
       <TestingQA />
       <NamingConventions />
       <Deployment />
+      <DeploymentDetail />
+      < FrontendDeployment />
       <Footer />
-
-
-
-
     </main>
-
-
   )
-
-
 }
-
-
 export default page
 

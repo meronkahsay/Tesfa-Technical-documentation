@@ -3,7 +3,7 @@
 import React from "react";
 export default function SystemComponents() {
   return (
-    <div id="system-components" className="bg-white mt-55 flex flex-col items-center justify-center lg:px-40 px-6 py-12">
+    <div id="system-components" className="bg-white mt-5 flex flex-col items-center justify-center lg:px-40 px-6 py-12">
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 xl:gap-10 mt-8 items-start">
     
         <div className="border border-[#CEA524] rounded-lg shadow-sm">

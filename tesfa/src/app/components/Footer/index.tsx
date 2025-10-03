@@ -26,9 +26,9 @@ export default function Footer() {
   };
 
   return (
-    <footer id="contact-us-section" className="bg-[#004240] text-white px-6 py-12 mt-7 xl:-mt-25  md:px-15">
+    <footer id="contact-us-section" className="bg-[#00353D] text-white px-6 py-12 mt-50   md:px-15">
       <div className="flex flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-between lg:pr-17">
-        <div className="">
+        <div >
           <div className="flex items-center space-x-2 mb-8 sm:mb-15 ">
             <img
               src="/Images/Logo.png"
@@ -41,13 +41,13 @@ export default function Footer() {
           <div className="lg:ml-18 ">
             <h2 className=" font-semibold mb-5 md:text-4xl text-xl lg:text-[23px]">Company</h2>
             <ul className="space-y-7 text-gray-200 text-xl md:text-3xl lg:text-[20px]">
-              <li className="hover:text-yellow-400 cursor-pointer">
+              <li className="hover:text-[#B88704] cursor-pointer">
                 <a href="#about-us-section">About Us</a>
               </li>
-              <li className="hover:text-yellow-400 cursor-pointer">
+              <li className="hover:text-[#B88704] cursor-pointer">
                 <a href="#contact-us-section">Contact Us</a>
               </li>
-              <li className="hover:text-yellow-400 cursor-pointer">
+              <li className="hover:text-[#B88704] cursor-pointer">
                 <a href="#services-section">Services</a>
               </li>
             </ul>
@@ -77,7 +77,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="w-full bg-[#FFC321] font-semibold py-2 md:py-3 rounded hover:bg-yellow-500 transition cursor-pointer text-[20px]"
+              className="w-full bg-[#B88704] font-semibold py-2 md:py-3 rounded hover:bg-yellow-500 transition cursor-pointer text-[20px]"
             >
               Submit Form
             </button>
@@ -87,15 +87,15 @@ export default function Footer() {
           <h2 className="font-semibold mb-4  md:text-4xl text-xl lg:text-[23px]">Contact</h2>
           <ul className="space-y-7 lg:text-[20px] text-xl md:text-3xl text-gray-200 ">
             <li className="flex items-center gap-3 cursor-pointer hover:text-[#FFC321] transition-colors">
-              <MapPin className="w-5 md:w-7 lg:w-6 lg:h-6 md:h-7 h-5  text-[#FFC321]" />
+              <MapPin className="w-5 md:w-7 lg:w-6 lg:h-6 md:h-7 h-5  text-[#B88704]" />
               AkiraChix, Nairobi
             </li>
             <li className="flex items-center gap-3  cursor-pointer hover:text-[#FFC321] transition-colors">
-              <Phone className="w-5 h-5 md:w-7 lg:w-6 lg:h-6  md:h-7 text-[#FFC321]" />
+              <Phone className="w-5 h-5 md:w-7 lg:w-6 lg:h-6  md:h-7 text-[#B88704]" />
               +254798477079
             </li>
             <li className="flex items-center gap-3 cursor-pointer hover:text-[#FFC321] transition-colors">
-              <Mail className="w-5 h-5 md:w-7 md:h-7 lg:w-6 lg:h-6  text-[#FFC321]" />
+              <Mail className="w-5 h-5 md:w-7 md:h-7 lg:w-6 lg:h-6  text-[#B88704]" />
               tesfa@gmail.com
             </li>
           </ul>
