@@ -90,7 +90,7 @@ export default function NamingConventions() {
        <div className="flex flex-col gap-8">
       
          <section className="flex items-center justify-center border border-[#B88704] rounded-md bg-white py-30  shadow-md min-h-[210px]">
-           <h1 className="text-4xl md:text-6xl font-bold text-[#00353D] text-center leading-relaxed">
+           <h1 className="text-4xl md:text-6xl font-bold text-[#0D3B3A] text-center leading-relaxed">
              Naming<br />Conventions &amp;<br />Coding Standards
            </h1>
          </section>

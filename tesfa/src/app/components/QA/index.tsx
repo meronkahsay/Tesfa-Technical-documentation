@@ -2,10 +2,10 @@ export default function TestingQA() {
   return (
     <div id="testing-qa-assurance" className="mt-10 flex flex-col items-center  justify-center py-10">
 
-      <h1 className="text-3xl md:text-6xl font-bold text-center mb-10 text-[#003D3B]">
+      <h1 className="text-3xl md:text-6xl font-bold text-center mb-10 text-[#0D3B3A]">
         Testing & <span className="text-[#C59D2C]">Quality Assurance</span>
       </h1>
-      <div className="lg:px-40 text-xl">
+      <div className="text-[#0D3B3A] lg:px-40 text-xl">
       <p >
         For backend testing, the approach covers several key areas. Model tests are written to verify all aspects of model logic, including creation, default values, string representations, field validation, and enforcement of unique constraints. API endpoint tests are implemented to ensure that all core endpoints correctly handle CRUD operations, returning appropriate responses for each operation. For business logic, any custom behaviors in models or endpoints, such as cascading deletes or logic tied to user roles, are specifically tested to make sure these work as intended. To maintain database integrity, TransactionTestCase is relied on for scenarios involving unique constraints and foreign keys, which helps to catch and handle database-level errors effectively. For test data, test records are always created using the ORM within setUp methods or directly inside the tests, and production data is never used. The goal is to achieve at least 85 percent test coverage on the backend, with particular focus on the most important models and endpoints.
       </p>

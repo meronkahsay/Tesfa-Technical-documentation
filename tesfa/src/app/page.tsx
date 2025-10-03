@@ -31,10 +31,10 @@ const page = () => {
       <SystemArchitecture />
       <EntityRelationship />
       <SetupInstructions />
-      <SwaggerDocumentation />
       <CodeStructurePage />
+        <SwaggerDocumentation />
+        <TesfaAgent />
       <DataFlow />
-      <TesfaAgent />
       <ToolsUtilities />
       <TestingQA />
       <NamingConventions />

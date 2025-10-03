@@ -1,9 +1,9 @@
 "use client";
 export default function CodeStructurePage() {
   return (
-    <div id="code-structure" className="min-h-screen bg-[#fdfbf9] mt-25 px-15 lg:px-40 ">
-      <h1 className="text-4xl md:text-6xl font-semibold text-[#04373b] mb-3">Code Structure</h1>
-      <p className="text-[#003333]  text-xl md:text-2xl mt-20  leading-relaxed mb-12">
+    <div id="code-structure" className="min-h-screen bg-[#fdfbf9] mt-40 px-15 lg:px-40 ">
+      <h1 className="text-4xl md:text-6xl font-semibold  text-[#0B4747]">Code Structure</h1>
+      <p className="text-[#003333]  text-xl md:text-2xl mt-10  leading-relaxed mb-12">
         The architecture of this project is divided into three main components: AI, Frontend, and Backend,
         each organized for clarity, scalability, and ease of maintenance. The AI module is structured to
         encapsulate intelligent agents and tools, allowing for seamless integration and future expansion of
@@ -66,7 +66,7 @@ export default function CodeStructurePage() {
  └── README.md`}
             </pre>
           </div>
-          <p className="mt-8 text-xl md:text-3xl lg:mb-0 mb-5 font-semibold text-[#d4a323]">Backend</p>
+          <p className="mt-8 text-xl md:text-3xl lg:mb-0 mb-5 font-semibold text-[#C59D2C]">Backend</p>
         </div>
 
         <div className="flex flex-col items-center">
@@ -113,9 +113,8 @@ export default function CodeStructurePage() {
  └── tsconfig.json`}
             </pre>
           </div>
-          <p className="mt-8 text-xl md:text-3xl lg:mb-0 mb-5 font-semibold text-[#d4a323]">Frontend</p>
+          <p className="mt-8 text-xl md:text-3xl lg:mb-0 mb-5 font-semibold text-[#C59D2C]">Frontend</p>
         </div>
-        {/* AI - Shortest but now taller */}
         <div className="flex flex-col items-center">
           <div className="bg-[#04373b] rounded-md shadow-lg md:px-25 px-20 py-20  w-full md:w-90">
             <pre className="text-white font-mono text-xs md:text-sm bg-transparent px-0 py-0">
@@ -133,7 +132,7 @@ export default function CodeStructurePage() {
  └── sessions.db`}
             </pre>
           </div>
-          <p className="mt-8 text-xl md:text-3xl lg:mb-0 mb-5  font-semibold text-[#d4a323]">AI</p>
+          <p className="mt-8 text-xl md:text-3xl lg:mb-0 mb-5  font-semibold text-[#C59D2C]">AI</p>
         </div>
       </div>
     </div>

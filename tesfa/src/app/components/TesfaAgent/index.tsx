@@ -9,7 +9,7 @@ export default function TesfaAgent() {
           Tesfa <span className="text-[#C59D2C]">AI</span> Agent
         </h1>
         <p className="mt-10 text-gray-700 lg:text-2xl leading-relaxed">
-      The Tesfa AI Agent is an intelligent system designed to predict long-term health risks in post-conflict regions, leveraging advanced agentic AI principles with Google’s ADK framework. It integrates BioGPT for medical expertise, Gemini (specifically the gemini-2.0-flash model) for reasoning and structured outputs, and utilizes a hybrid Retrieval-Augmented Generation (RAG) approach. The agent retrieves structured data from Supabase, conducts web fallback searches as needed, and communicates risk levels as percentages (0–100%). For medium or high risks, the system provides actionable recommendations for NGOs, presenting all results in a clear, consistent JSON format.
+      The Tesfa AI Agent is an intelligent system designed to predict long-term health risks in post-conflict regions, leveraging advanced agentic AI principles with Google's ADK framework. It integrates BioGPT for medical expertise, Gemini (specifically the gemini-2.0-flash model) for reasoning and structured outputs, and utilizes a hybrid Retrieval-Augmented Generation (RAG) approach. The agent retrieves structured data from Supabase, conducts web fallback searches as needed, and communicates risk levels as percentages (0-100%). For medium or high risks, the system provides actionable recommendations for NGOs, presenting all results in a clear, consistent JSON format.
         </p>
         <p className="mt-4 text-gray-700 lg:text-2xl leading-relaxed">
 

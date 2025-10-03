@@ -1,10 +1,10 @@
 
 export default function SetupInstructions() {
   return (
-    <section className="w-full mt-55 px-6 lg:px-40">
+    <section className="w-full mt-40 px-6 lg:px-40">
       <h2 className="text-4xl md:text-6xl font-bold text-[#003333]">Setup Instructions</h2>
 
-      <div className="mt-16">
+      <div className="mt-10">
         <div className="mb-6">
           <h3 className="text-3xl md:text-4xl font-semibold text-[#003333]">Frontend</h3>
           <div className="h-[3px] w-35 bg-[#D4A323] mt-1" />
@@ -12,7 +12,7 @@ export default function SetupInstructions() {
     
         <div className="w-full ">
          
-          <div className="flex justify-between mt-20 text-[#003333] md:text-3xl font-medium">
+          <div className="flex justify-between mt-10 text-[#003333] md:text-3xl font-medium">
             <span>cd frontend</span>
             <span>npm install</span>
             <span>npm run dev</span>

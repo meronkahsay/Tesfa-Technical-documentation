@@ -76,21 +76,23 @@ function DeploymentStep({ icon, text }: { icon: React.ReactNode; text: React.Rea
  return (
    <div className="flex flex-col items-center text-center w-full max-w-xs">
    
-     <div className="bg-white rounded-t-full rounded-b-none"
-       style={{
-         marginBottom: -36,
-         width: 200,
-         height: 200,
-         display: "flex",
-         alignItems: "center",
-         justifyContent: "center",
-         boxShadow: "0 2px 14px 0 rgba(0,0,0,0.02)"
-       }}
+     <div
+        className="bg-white rounded-full "
+        style={{
+          marginBottom: -36,
+          width: 200,
+          height: 200,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          boxShadow: "0 16px 32px -8px rgba(0,0,0,0.22), 0 8px 24px -12px rgba(0,0,0,0.19)"
+     
+        }}
      >
        {icon}
      </div>
    
-    <div className="mt-12 text-[17px]  md:text-[20px] text-[#00353D] xl:text-2xl font-medium max-w-xs w-full mx-auto ">
+    <div className="mt-18 text-[17px]  md:text-[20px] text-[#00353D] xl:text-2xl font-medium max-w-xs w-full mx-auto ">
  {text}
 </div>
    </div>
