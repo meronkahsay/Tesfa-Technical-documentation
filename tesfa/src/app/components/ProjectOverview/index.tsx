@@ -15,8 +15,8 @@ export default function ProjectOverview() {
               src="/Images/orgDashboard.png"
               alt="Organization Dashboard"
               width={350}
-              height={200}
-              className="object-contain"
+                height={200}
+    className="object-contain shadow-2xl transition-transform duration-300 hover:scale-105 active:scale-110"
             />
           </div>
           <h3 className="mt-6 text-2xl md:text-3xl font-semibold text-[#C59D2C]">
@@ -36,8 +36,8 @@ export default function ProjectOverview() {
               src="/Images/InformationalWebsite.png"
               alt="Informational Website"
               width={350}
-              height={200}
-              className="object-contain"
+               height={200}
+    className="object-contain shadow-2xl transition-transform duration-300 hover:scale-105 active:scale-110"
             />
           </div>
           
@@ -58,8 +58,8 @@ export default function ProjectOverview() {
               src="/Images/Dashboard.png"
               alt="Admin Dashboard"
               width={350}
-              height={200}
-              className="object-contain"
+               height={200}
+    className="object-contain shadow-2xl transition-transform duration-300 hover:scale-105 active:scale-110"
             />
           </div>
           <h3 className="mt-6 text-2xl md:text-3xl font-semibold text-[#C59D2C]">

@@ -29,7 +29,7 @@ export default function KeyFeatures() {
       <div className="w-full lg:w-1/2 flex justify-center relative">
 
         <div className="w-full relative flex items-center justify-center">
-          <img src={"/Images/Laptop.png"} className=""></img>
+          <img src={"/Images/Laptop.png"} className="shadow-2xl"></img>
         </div>
 
       </div>

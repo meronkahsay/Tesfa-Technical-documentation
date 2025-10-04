@@ -7,7 +7,7 @@ export default function SystemComponents() {
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 xl:gap-10 mt-8 items-start">
     
         <div className="border border-[#CEA524] rounded-lg shadow-sm">
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col md:flex-row shadow-2xl transition-transform duration-300 hover:scale-95 active:scale-100">
             <div className="bg-[#CEA524] text-white font-medium p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-center text-base md:text-xl xl:text-3xl writing-vertical">
               Agentic AI Layer
             </div>
@@ -34,7 +34,7 @@ export default function SystemComponents() {
         </div>
     
         <div className="border border-[#CEA524] rounded-lg shadow-sm">
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col md:flex-row shadow-2xl transition-transform duration-300 hover:scale-95 active:scale-100">
             <div className="bg-[#CEA524] text-white font-medium rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-center p-4 text-base md:text-xl xl:text-3xl writing-vertical">
               Dashboard
             </div>
@@ -51,8 +51,8 @@ export default function SystemComponents() {
         </div>
      
         <div className="border border-[#CEA524] rounded-lg shadow-sm">
-          <div className="flex flex-col md:flex-row">
-            <div className="bg-[#CEA524] text-white font-medium text-center p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-base md:text-xl xl:text-3xl writing-vertical">
+          <div className="flex flex-col md:flex-row shadow-2xl transition-transform duration-300 hover:scale-95 active:scale-100">
+            <div className="bg-[#CEA524] text-white  font-medium text-center p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-base md:text-xl xl:text-3xl writing-vertical">
               Backend (API)
             </div>
             <div className="p-6 text-gray-800 text-sm md:text-2xl w-full md:ml-4 md:w-auto">
@@ -72,7 +72,7 @@ export default function SystemComponents() {
         </div>
      
         <div className="border border-[#CEA524] rounded-lg shadow-sm">
-          <div className="flex flex-col  md:flex-row">
+          <div className="flex flex-col  md:flex-row shadow-2xl transition-transform duration-300 hover:scale-95 active:scale-100">
             <div className="bg-[#CEA524] text-white font-medium text-center p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-base md:text-xl xl:text-3xl writing-vertical">
               Security
             </div>
@@ -88,7 +88,7 @@ export default function SystemComponents() {
         </div>
       
         <div className="border border-[#CEA524] rounded-lg shadow-sm">
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col md:flex-row shadow-2xl transition-transform duration-300 hover:scale-95 active:scale-100">
             <div className="bg-[#CEA524] text-white font-medium text-center p-4 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg md:rounded-br-lg text-base md:text-xl xl:text-3xl writing-vertical">
               External Integrations
             </div>

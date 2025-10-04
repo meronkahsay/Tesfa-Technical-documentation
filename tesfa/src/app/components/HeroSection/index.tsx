@@ -4,7 +4,6 @@ import Image from "next/image";
 import { HiMenu, HiX } from "react-icons/hi";
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false);
   const menuItems = [
     { name: "System Components", id: "system-components" },
     { name: "System Architecture", id: "system-architecture" },
@@ -13,12 +12,16 @@ export default function Home() {
     { name: "Deployment", id: "deployment" },
   ];
 
-  const scrollToSection = (id:string) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState(menuItems[0].id);
+
+  const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-    setIsOpen(false); 
+    setActiveSection(id);
+    setIsOpen(false);
   };
 
   return (
@@ -31,19 +34,29 @@ export default function Home() {
           <h1 className="text-2xl mt-5 font-light text-gray-800">Tesfa</h1>
         </div>
 
+        {/* Desktop Nav */}
         <nav className="hidden lg:flex gap-8 text-[#003D3B] lg:text-[16px] xl:text-xl mt-5 font-medium">
           {menuItems.map((item, i) => (
             <button
               key={i}
               onClick={() => scrollToSection(item.id)}
-              className="relative group cursor-pointer bg-transparent border-none p-0 text-left text-[#003D3B] group-hover:text-[#C59D2C]"
+              className={`
+                relative group cursor-pointer bg-transparent border-none p-0 text-left transition-colors
+                ${activeSection === item.id ? "text-[#C59D2C]" : "text-[#003D3B] hover:text-[#C59D2C]"}
+              `}
             >
               {item.name}
-              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#C59D2C] transition-all group-hover:w-full"></span>
+              <span
+                className={`
+                  absolute left-0 bottom-0 h-[2px] bg-[#C59D2C] transition-all duration-300
+                  ${activeSection === item.id ? "w-full" : "w-0 group-hover:w-full"}
+                `}
+              ></span>
             </button>
           ))}
         </nav>
 
+        {/* Mobile Menu Button */}
         <button
           className="lg:hidden text-[#C19300] text-3xl"
           onClick={() => setIsOpen(true)}
@@ -52,6 +65,7 @@ export default function Home() {
         </button>
       </header>
 
+      {/* Mobile Nav */}
       {isOpen && (
         <div className="fixed inset-0 w-full px-15 py-30 h-full bg-white z-50 flex flex-col space-y-8 text-2xl font-medium">
           <button
@@ -64,10 +78,18 @@ export default function Home() {
             <button
               key={i}
               onClick={() => scrollToSection(item.id)}
-              className="relative group cursor-pointer bg-transparent border-none p-0 text-left text-[#003D3B] group-hover:text-[#C59D2C]"
+              className={`
+                relative group cursor-pointer bg-transparent border-none p-0 text-left transition-colors
+                ${activeSection === item.id ? "text-[#C59D2C]" : "text-[#003D3B] hover:text-[#C59D2C]"}
+              `}
             >
               {item.name}
-              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#C19300] transition-all group-hover:w-full"></span>
+              <span
+                className={`
+                  absolute left-0 bottom-0 h-[2px] bg-[#C59D2C] transition-all duration-300
+                  ${activeSection === item.id ? "w-full" : "w-0 group-hover:w-full"}
+                `}
+              ></span>
             </button>
           ))}
         </div>
@@ -76,7 +98,7 @@ export default function Home() {
       <section className="flex flex-col lg:flex-row items-center justify-between py-16">
         <div className="lg:w-1/2 space-y-6">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#003D3B] leading-snug">
-            Rebuilding <span className="text-[#C19300]">hope</span> with agentic <br /> health risk prediction
+            Rebuilding <span className="text-[#C59D2C]">hope</span> with agentic <br /> health risk prediction
           </h2>
           <p className="text-[#003D3B] lg:text-2xl text-xl leading-relaxed">
             Tesfa is an agentic AI platform built to empower NGOs working in post-conflict regions.
@@ -92,11 +114,10 @@ export default function Home() {
             alt="Globe"
             width={500}
             height={500}
-            className="max-w-full h-auto"
+            className="max-w-full h-auto "
           />
         </div>
       </section>
-
     </main>
   );
 }

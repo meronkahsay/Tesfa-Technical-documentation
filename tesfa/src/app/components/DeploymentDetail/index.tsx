@@ -105,6 +105,7 @@ export default function DeploymentDetail() {
             <div className="mr-6 w-20 h-20 lg:w-40 lg:h-40  rounded-full bg-[#B88704] flex items-center justify-center text-white text-2xl font-bold">
               03
             </div>
+            
             <div className="border-t-2 border-[#B88704] absolute w-1/3 bottom-0 left-25  "></div>
             <div className="flex-1 text-left">
               <h3 className="text-lg font-semibold mb-2 lg:text-2xl text-[#004f4f]">Monitor and Verify Deployment</h3>
