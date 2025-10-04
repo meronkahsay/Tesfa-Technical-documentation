@@ -19,7 +19,6 @@ import DeploymentDetail from './components/DeploymentDetail'
 import ToolsUtilities from './components/AgentDefinition'
 import FrontendDeployment from './components/FrontendDeployment'
 
-
 const page = () => {
   return (
     <main>

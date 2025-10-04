@@ -12,7 +12,6 @@ export default function Home() {
     { name: "Testing & QA Assurance", id: "testing-qa-assurance" },
     { name: "Deployment", id: "deployment" },
   ];
-
   const scrollToSection = (id:string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -20,18 +19,16 @@ export default function Home() {
     }
     setIsOpen(false); 
   };
-
   return (
     <main className="lg:px-40 lg:py-20 bg-white">
       <header className="lg:fixed lg:top-0 lg:left-0  lg:w-full lg:bg-white lg:z-50 flex justify-between items-center px-8 py-4 shadow-sm">
         <div className="flex items-center gap-2">
           <div className="w-12 h-10 flex items-center justify-center">
-            <img src={"/Images/Logo-blue.png"} alt="Logo" />
+            <img src={"/Images/Logo-blue.png"} alt="Logo"/>
           </div>
           <h1 className="text-2xl mt-5 font-light text-gray-800">Tesfa</h1>
         </div>
-
-        <nav className="hidden lg:flex gap-8 text-[#003D3B] lg:text-[16px] xl:text-xl mt-5 font-medium">
+        <nav className="hidden lg:flex gap-8 text-[#003D3B] lg:text-[14px] xl:text-2xl mt-5 font-medium">
           {menuItems.map((item, i) => (
             <button
               key={i}
@@ -43,7 +40,6 @@ export default function Home() {
             </button>
           ))}
         </nav>
-
         <button
           className="lg:hidden text-[#C19300] text-3xl"
           onClick={() => setIsOpen(true)}
@@ -51,14 +47,13 @@ export default function Home() {
           <HiMenu />
         </button>
       </header>
-
       {isOpen && (
         <div className="fixed inset-0 w-full px-15 py-30 h-full bg-white z-50 flex flex-col space-y-8 text-2xl font-medium">
           <button
             className="absolute top-6 left-82 text-4xl text-[#C19300]"
             onClick={() => setIsOpen(false)}
           >
-            <HiX />
+            <HiX/>
           </button>
           {menuItems.map((item, i) => (
             <button
@@ -72,7 +67,6 @@ export default function Home() {
           ))}
         </div>
       )}
-
       <section className="flex flex-col lg:flex-row items-center justify-between py-16">
         <div className="lg:w-1/2 space-y-6">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#003D3B] leading-snug">
@@ -85,7 +79,6 @@ export default function Home() {
             environmental risks stemming from war and conflict.
           </p>
         </div>
-
         <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-end">
           <Image
             src="/Images/global 2.png"
@@ -96,7 +89,6 @@ export default function Home() {
           />
         </div>
       </section>
-
     </main>
   );
 }
