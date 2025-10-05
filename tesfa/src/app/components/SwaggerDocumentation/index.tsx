@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function SwaggerDocumentation() {
   return (
     <main className="mt-25 text-[#0B4747] flex flex-col items-start justify-center px-4 py-15">
-      <section className="w-full lg:px-40">
+      <section className="w-full lg:px-30 2xl:px-40">
         <h1 className="text-2xl lg:text-6xl text-[#C59D2C] font-bold mb-10">
           Swagger Documentation
         </h1>

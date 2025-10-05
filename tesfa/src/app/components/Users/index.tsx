@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Users() {
   return (
     <div className=" bg-white flex items-center justify-center px-6 ">
-      <div className=" lg:px-35 w-full grid grid-cols-1 md:grid-cols-2 md:gap-25 gap-8 items-center">
+      <div className=" lg:px-20 2xl:px-40 w-full grid grid-cols-1 md:grid-cols-2 md:gap-25 gap-8 items-center">
 
         <div className=" grid grid-cols-2 gap-4">
 
@@ -38,7 +38,7 @@ export default function Users() {
         </div>
 
         <div className="text-center mt-15 md:text-left">
-          <h2 className="text-4xl lg:text-end md:text-6xl font-bold text-[#003D3B]">
+          <h2 className="2xl:text-7xl lg:text-end md:text-5xl lg:text-5xl font-bold text-[#003D3B]">
             Who Are Our <span className="text-[#C59D2C]">Users?</span>
           </h2>
           <p className="mt-5 text-[#003D3B] text-xl md:text-2xl lg:text-end leading-relaxed">

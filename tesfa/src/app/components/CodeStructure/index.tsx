@@ -1,7 +1,7 @@
 "use client";
 export default function CodeStructurePage() {
   return (
-    <div id="code-structure" className="min-h-screen bg-[#fdfbf9] mt-40 px-15 lg:px-40 ">
+    <div id="code-structure" className="min-h-screen bg-[#fdfbf9] mt-40 px-15 lg:px-20 2xl:px-40 ">
       <h1 className="text-4xl md:text-6xl font-semibold  text-[#0B4747]">Code Structure</h1>
       <p className="text-[#003333]  text-xl md:text-2xl mt-10  leading-relaxed mb-12">
         The architecture of this project is divided into three main components: AI, Frontend, and Backend,
@@ -15,7 +15,7 @@ export default function CodeStructurePage() {
         testing, and evolution of the entire platform as new features and improvements are introduced.
       </p>
      
-      <div className="w-full flex flex-wrap lg:flex-row justify-around  mt-30  items-end">
+      <div className="w-full flex flex-wrap  justify-around  mt-30  items-end">
        
         <div className="flex flex-col items-center">
           <div className="bg-[#04373b] rounded-md shadow-lg md:px-25 px-20 py-5  w-full md:w-90">

@@ -12,7 +12,7 @@ export default function Deployment() {
      </div>
      
      <div className="w-full flex justify-center items-start -mt-20 ">
-       <div className="flex flex-col    md:flex-row justify-center items-start gap-30 md:gap-20 w-full max-w-8xl px-6">
+       <div className="flex flex-col md:flex-row justify-center items-start gap-30 md:gap-20 w-full max-w-8xl px-6">
          <DeploymentStep
            icon={
              <img
@@ -74,7 +74,7 @@ export default function Deployment() {
 
 function DeploymentStep({ icon, text }: { icon: React.ReactNode; text: React.ReactNode }) {
  return (
-   <div className="flex flex-col items-center text-center w-full max-w-xs">
+   <div className="flex flex-col items-center text-center w-full max-w-lg">
    
      <div
         className="bg-white rounded-full "

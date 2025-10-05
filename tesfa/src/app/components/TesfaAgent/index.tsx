@@ -2,7 +2,7 @@
 import { FaHeartbeat, FaFlask, FaSearch, FaCode, FaRocket } from "react-icons/fa";
 export default function TesfaAgent() {
   return (
-    <div className="mt-15 lg:px-40 px-6 ">
+    <div className="mt-15 lg:px-20 2xl:px-40 px-6 ">
      
       <section className="bg-white w-full   py-12">
         <h1 className="text-4xl md:text-6xl font-bold text-[#003D3B]">
@@ -18,7 +18,6 @@ Powered by a FastAPI and Uvicorn backend, the API server stores session history 
       </section>
                     <h2 className="text-2xl font-bold text-[#C59D2C] xl:text-4xl">System Overview</h2>
         <section className=" w-full flex justify-center py-20 px-6">
-
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-12 text-white">
   
           <div className="flex items-center border-2 text-[#003D3B] border-[#C59D2C] lg:text-xl rounded-lg p-6 space-x-3 shadow-md">

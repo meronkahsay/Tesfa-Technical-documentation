@@ -35,7 +35,7 @@ export default function DataFlow() {
     },
   ];
   return (
-    <main className="bg-white flex flex-col  px-4 xl:px-40 py-12">
+    <main className="bg-white flex flex-col  px-4 lg:px-10 2xl:px-40 py-12">
       <h1 className="text-4xl xl:text-6xl font-semibold text-[#0D3B3A] mb-16">
         Data Flow
       </h1>
@@ -50,11 +50,11 @@ export default function DataFlow() {
                 {step.title}
               </div>
               <div className="absolute rotate-90 -right-9 w-24 h-24 border-t-12 border-[#C19300] rounded-full xl:w-70 xl:h-70"></div>
-              <div className="absolute -right-12 bg-[#0D3B3A] text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">
+              <div className="absolu;te -right-12 bg-[#0D3B3A] text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">
                 {step.number}
               </div>
             </div>
-            <ul className="text-sm  md:text-xl text-[#003333] leading-relaxed mt-25 text-left list-disc list-outside pl-4 ml-10 marker:text-[#C19300]">
+            <ul className="text-sm  2xl:text-2xl md:text-xl text-[#003333] leading-relaxed mt-25 text-left list-disc list-outside pl-4 ml-10 marker:text-[#C19300]">
               {step.details.map((detail, i) => (
                 <li key={i}>{detail}</li>
               ))}

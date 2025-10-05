@@ -1,7 +1,6 @@
-
 export default function SetupInstructions() {
   return (
-    <section className="w-full mt-40 px-6 lg:px-40">
+    <section className="w-full mt-40 px-6 lg:px-20 2xl:px-40">
       <h2 className="text-4xl md:text-6xl font-bold text-[#003333]">Setup Instructions</h2>
 
       <div className="mt-10">

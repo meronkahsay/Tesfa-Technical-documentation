@@ -4,12 +4,12 @@ import React from "react";
 
 export default function NamingConventions() {
  return (
-   <main className="min-h-screen  bg-white flex flex-col items-center  py-10 px-12 ">
-     <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2  gap-20">
+   <main className="min-h-screen  bg-white flex flex-col items-center py-10 px-12 ">
+     <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2  gap-25">
 
        <div className="flex flex-col gap-8">
 
-         <section className="bg-[#B88704] text-white xl:w-160 rounded-md border border-[#B88704] p-8 shadow-md">
+         <section className="bg-[#B88704] text-white xl:w-155 rounded-md border border-[#B88704] p-5 shadow-md">
            <h2 className="text-3xl md:text-5xl font-light mb-4">Frontend</h2>
 
            <p className="md:text-3xl">Structure & Functions</p>
@@ -95,7 +95,7 @@ export default function NamingConventions() {
            </h1>
          </section>
   
-         <section className="bg-[#00353D] text-white rounded-md border border-cyan-800 p-12 py-18 xl:-170 shadow-md">
+         <section className="bg-[#00353D] text-white rounded-md border border-cyan-800 p-10 py-18 xl:-170 shadow-md">
            <h2 className="text-2xl md:text-5xl font-light mb-4 tracking-wide">Backend</h2>
 
            <p className="md:text-3xl">Structure & Functions</p>

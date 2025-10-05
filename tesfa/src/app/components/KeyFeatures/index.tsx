@@ -1,6 +1,6 @@
 export default function KeyFeatures() {
   return (
-    <section className="w-full  flex flex-col md:flex-row items-center justify-between px-6 lg:px-40 py-12 mt-45 gap-10">
+    <section className="w-full  flex flex-col md:flex-row items-center justify-between px-6 lg:px-20 2xl:px-40 py-12 mt-45 gap-10">
 
       <div className="w-full  lg:w-1/3 space-y-8">
         <h2 className="md:text-6xl text-3xl mb-15 font-bold text-[#003333]">Key Features</h2>
@@ -29,7 +29,7 @@ export default function KeyFeatures() {
       <div className="w-full lg:w-1/2 flex justify-center relative">
 
         <div className="w-full relative flex items-center justify-center">
-          <img src={"/Images/Laptop.png"} className=""></img>
+          <img src={"/Images/Laptop.png"} className="shadow-2xl"></img>
         </div>
 
       </div>

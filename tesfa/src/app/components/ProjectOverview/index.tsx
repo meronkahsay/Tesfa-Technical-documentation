@@ -1,22 +1,19 @@
 import Image from "next/image";
 export default function ProjectOverview() {
   return (
-    <div className="bg-white flex flex-col px-6 py-12 mt-20  lg:px-40">
-  
+    <div className="bg-white flex flex-col px-6 py-12 mt-20 lg:px-20 2xl:px-40">
       <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-12 text-[#003D3B] text-center lg:text-left">
         Project Overview
       </h2>
-    
       <div className="grid grid-cols-1 lg:py-10 lg:grid-cols-3 gap-12 w-full">
-   
         <div className="flex  flex-col lg:items-start  lg:text-left">
           <div className="w-full h-52 flex items-center  mb-10">
             <Image
               src="/Images/orgDashboard.png"
               alt="Organization Dashboard"
               width={350}
-              height={200}
-              className="object-contain"
+                height={200}
+    className="object-contain shadow-2xl transition-transform duration-300 hover:scale-105 active:scale-110"
             />
           </div>
           <h3 className="mt-6 text-2xl md:text-3xl font-semibold text-[#C59D2C]">
@@ -36,8 +33,8 @@ export default function ProjectOverview() {
               src="/Images/InformationalWebsite.png"
               alt="Informational Website"
               width={350}
-              height={200}
-              className="object-contain"
+               height={200}
+    className="object-contain shadow-2xl transition-transform duration-300 hover:scale-105 active:scale-110"
             />
           </div>
           
@@ -58,8 +55,8 @@ export default function ProjectOverview() {
               src="/Images/Dashboard.png"
               alt="Admin Dashboard"
               width={350}
-              height={200}
-              className="object-contain"
+               height={200}
+    className="object-contain shadow-2xl transition-transform duration-300 hover:scale-105 active:scale-110"
             />
           </div>
           <h3 className="mt-6 text-2xl md:text-3xl font-semibold text-[#C59D2C]">

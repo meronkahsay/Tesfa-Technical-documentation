@@ -1,13 +1,10 @@
 export default function SystemArchitecture() {
   return (
-    <section id="system-architecture" className="w-full px-6 lg:px-40 mt-30 ">
- 
+    <section id="system-architecture" className="w-full px-6 lg:px-20 2xl:px-40 mt-30 ">
       <h2 className="text-4xl md:text-6xl font-bold text-center text-[#003333] mb-25">
         System <span className="text-[#D4A323]">Architecture</span>
       </h2>
-   
       <div className="grid grid-cols-1 md:grid-cols-2 gap-55 mb-10 md:mb-40">
-
         <div className="space-y-15 text-2xl">
           <div>
             <h3 className="text-3xl font-semibold text-[#003333] border-l-4 border-[#D4A323] pl-3">
@@ -28,7 +25,6 @@ export default function SystemArchitecture() {
             </p>
           </div>
         </div>
-      
         <div className="space-y-15 text-2xl">
           <div>
             <h3 className="text-3xl  font-semibold text-[#003333] border-l-4 border-[#D4A323] pl-3">
@@ -50,7 +46,6 @@ export default function SystemArchitecture() {
           </div>
         </div>
       </div>
-    
       <div className="flex justify-center">
         <img
           src="/Images/SystemArchitecture.png"
