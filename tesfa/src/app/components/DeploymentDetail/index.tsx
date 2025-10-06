@@ -2,7 +2,7 @@
 export default function DeploymentDetail() {
   return (
     <div className="bg-white lg:px-20 2xl:px-40 px-10 mt-40">
-      <div className="md:grid-cols-2 gap-16 flex flex-wrap">
+      <div className="md:grid-cols-2 gap-16 flex">
         <div
           className="space-y-14 pr-10 md:pr-6 lg:pr-4 xl:pr-2 2xl:pr-0 border-r border-[#004f4f] md:border-r md:border-[#004f4f] lg:border-r lg:border-[#004f4f] xs:border-r-0"
           style={{ borderRightWidth: "1px" }}
