@@ -2,8 +2,8 @@
 export default function CodeStructurePage() {
   return (
     <div id="code-structure" className="min-h-screen bg-[#fdfbf9] mt-40 px-15 lg:px-20 2xl:px-40 ">
-      <h1 className="text-4xl md:text-6xl font-semibold  text-[#0B4747]">Code Structure</h1>
-      <p className="text-[#003333]  text-xl md:text-2xl mt-10  leading-relaxed mb-12">
+      <h1 className="lg:text-5xl text-4xl 2xl:text-6xl font-bold text-[#003D3B] leading-snug">Code Structure</h1>
+      <p className="text-[#003333]  sm:text-lg lg:text-xl 2xl:text-2xl mt-10  leading-relaxed mb-12">
         The architecture of this project is divided into three main components: AI, Frontend, and Backend,
         each organized for clarity, scalability, and ease of maintenance. The AI module is structured to
         encapsulate intelligent agents and tools, allowing for seamless integration and future expansion of

@@ -26,7 +26,7 @@ export default function SystemComponents() {
           </div>
         </div>
         <div className="flex items-center justify-center text-center xl:mt-18 xl:col-start-2">
-          <h2 className="2xl:text-7xl  md:text-4xl font-semibold text-[#003D3B] leading-snug">
+          <h2 className="lg:text-5xl text-3xl 2xl:text-6xl font-bold text-[#003D3B] leading-snug">
             System <br /> Components
           </h2>
         </div>

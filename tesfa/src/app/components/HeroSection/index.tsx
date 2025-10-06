@@ -92,7 +92,7 @@ export default function Home() {
       )}
       <section className="flex flex-col lg:flex-row items-center justify-between py-16 max-w-[90%] lg:max-w-[1200px] xl:max-w-[95%] mx-auto">
         <div className="lg:w-2/3 space-y-6">
-          <h2 className="lg:text-5xl text-4xl 2xl:text-6xl font-bold text-[#003D3B] leading-snug">
+          <h2 className="lg:text-5xl text-3xl 2xl:text-6xl font-bold text-[#003D3B] leading-snug">
             Rebuilding <span className="text-[#C59D2C]">hope</span> with agentic <br /> health risk prediction
           </h2>
           <p className="text-[#003D3B] text-base sm:text-lg lg:text-xl 2xl:text-2xl leading-relaxed">

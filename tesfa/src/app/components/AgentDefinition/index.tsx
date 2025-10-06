@@ -33,7 +33,7 @@ export default function ToolsUtilities() {
           <div className="h-[2px] w-30 bg-[#C19300]"></div>
         </div>
     
-        <h2 className="text-3xl lg:text-5xl font-semibold text-teal-900 mt-6 xl:mt-10 mb-10 lg:ml-44">
+        <h2 className="text-2xl font-bold text-[#C59D2C] xl:text-4xl">
           Tools & Utilities
         </h2>
       

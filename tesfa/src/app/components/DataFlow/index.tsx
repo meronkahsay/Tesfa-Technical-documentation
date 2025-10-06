@@ -36,9 +36,9 @@ export default function DataFlow() {
   ];
   return (
     <main className="bg-white flex flex-col  px-4 lg:px-10 2xl:px-40 py-12">
-      <h1 className="text-4xl xl:text-6xl font-semibold text-[#0D3B3A] mb-16">
+      <h2 className="text-2xl font-bold text-[#C59D2C] xl:text-4xl">
         Data Flow
-      </h1>
+      </h2>
       <div className="flex flex-col xl:flex-row items-center xl:items-stretch justify-between w-full gap-12 xl:gap-6  mt-20">
         {steps.map((step, idx) => (
           <div
@@ -49,8 +49,8 @@ export default function DataFlow() {
               <div className="w-40 h-40 xl:w-50 xl:h-50 rounded-full bg-[#0D3B3A] flex items-center justify-center text-white text-lg xl:text-2xl font-medium shadow-lg">
                 {step.title}
               </div>
-              <div className="absolute rotate-90 -right-9 w-24 h-24 border-t-12 border-[#C19300] rounded-full xl:w-70 xl:h-70"></div>
-              <div className="absolu;te -right-12 bg-[#0D3B3A] text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">
+              <div className="absolute rotate-90 -right-10 w-24 h-24 border-t-12 border-[#C19300] rounded-full xl:w-70 xl:h-70"></div>
+              <div className="absolute -right-13 bg-[#0D3B3A] text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">
                 {step.number}
               </div>
             </div>

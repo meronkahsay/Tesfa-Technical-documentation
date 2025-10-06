@@ -38,10 +38,10 @@ export default function Users() {
         </div>
 
         <div className="text-center mt-15 md:text-left">
-          <h2 className="2xl:text-7xl lg:text-end md:text-5xl lg:text-5xl font-bold text-[#003D3B]">
+          <h2 className="2xl:text-7xl lg:text-end md:text-5xl text-3xl lg:text-5xl font-bold text-[#003D3B]">
             Who Are Our <span className="text-[#C59D2C]">Users?</span>
           </h2>
-          <p className="mt-5 text-[#003D3B] text-xl md:text-2xl lg:text-end leading-relaxed">
+          <p className="mt-5 text-[#003D3B] text-base sm:text-lg lg:text-xl 2xl:text-2xl  lg:text-end leading-relaxed">
             Our main users are NGOs and humanitarian agencies focused on
             rebuilding post-conflict communities. Tesfa equips them with
             AI-powered insights, risk maps, and intervention tracking, helping

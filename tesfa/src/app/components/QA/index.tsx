@@ -6,11 +6,11 @@ export default function TestingQA() {
         Testing & <span className="text-[#C59D2C]">Quality Assurance</span>
       </h1>
       <div className="text-[#0D3B3A] 2xl:text-2xl lg:px-20 2xl:px-40 text-xl">
-        <p className="px-4 text-base sm:text-lg lg:text-xl">
+        <p className="px-4 text-base sm:text-lg lg:text-xl 2xl:text-2xl ">
           For backend testing, the approach covers several key areas. Model tests are written to verify all aspects of model logic, including creation, default values, string representations, field validation, and enforcement of unique constraints. API endpoint tests are implemented to ensure that all core endpoints correctly handle CRUD operations, returning appropriate responses for each operation. For business logic, any custom behaviors in models or endpoints, such as cascading deletes or logic tied to user roles, are specifically tested to make sure these work as intended. To maintain database integrity, TransactionTestCase is relied on for scenarios involving unique constraints and foreign keys, which helps to catch and handle database-level errors effectively. For test data, test records are always created using the ORM within setUp methods or directly inside the tests, and production data is never used. The goal is to achieve at least 85 percent test coverage on the backend, with particular focus on the most important models and endpoints.
         </p>
         <br />
-        <p className="px-4 text-base sm:text-lg lg:text-xl">
+        <p className="px-4 text-base sm:text-lg lg:text-xl 2xl:text-2xl">
           For frontend testing, the approach ensures that each page and component is verified to render correctly with all required elements. Components are tested with various props, mocked hooks, and different data states, including loading, error, populated, and empty scenarios, to confirm that behavior is consistent in all cases. User interactions such as typing, clicking buttons, toggling password visibility, and submitting forms are simulated to check that the user interface updates as expected and that any necessary API calls are triggered. To keep tests fast and reliable, all API utilities, hooks, and Next.js navigation are mocked, allowing for isolation of component logic. It is also checked that invalid input is properly caught and that user interface error states are displayed when appropriate, ensuring that error responses from APIs result in the correct messages being shown. For role-based flows, it is confirmed that users with different roles, such as admin or organization user, see the correct dashboard or are redirected as expected.
         </p>
         <br />
