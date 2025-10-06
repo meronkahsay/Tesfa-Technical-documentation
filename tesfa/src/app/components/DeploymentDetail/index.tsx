@@ -2,9 +2,9 @@
 export default function DeploymentDetail() {
   return (
     <div className="bg-white lg:px-20 2xl:px-40 px-10 mt-40">
-      <div className="md:grid-cols-2 gap-16 flex">
+      <div className="md:grid-cols-2 gap-16 flex flex-wrap">
         <div
-          className="space-y-14 pr-10 md:pr-6 lg:pr-4 xl:pr-2 2xl:pr-0 border-r border-[#004f4f] md:border-r md:border-[#004f4f] lg:border-r lg:border-[#004f4f] hidden md:block"
+          className="space-y-14 pr-10 md:pr-6 lg:pr-4 xl:pr-2 2xl:pr-0 border-r border-[#004f4f] md:border-r md:border-[#004f4f] lg:border-r lg:border-[#004f4f] xs:border-r-0"
           style={{ borderRightWidth: "1px" }}
         >
           <h2 className="text-2xl font-bold text-[#C59D2C] xl:text-4xl">
@@ -69,7 +69,7 @@ export default function DeploymentDetail() {
         </div>
         <div className="space-y-12 lg:pl-0 2xl:pl-5 ">
           <h2 className="text-2xl font-bold text-[#C59D2C] xl:text-4xl">Backend Deployment</h2>
-          <div className="flex border-l-4 rounded-l-full p-4 border-[#B88704] items-center relative">
+          <div className="flex border-l-4 rounded-l-full p-4 border-[#B88704] items-center relative xs:border-l-0">
             <div className="mr-6 w-20 h-20 lg:w-30 lg:h-30 2xl:w-40 2xl:h-40 rounded-full bg-[#B88704] flex items-center justify-center text-white text-2xl font-bold">
               01
             </div>
@@ -87,7 +87,7 @@ export default function DeploymentDetail() {
             <div className="absolute border-t-2 left-23 border-[#B88704] top-0 w-1/3"></div>
             <div className="border-t-2 border-dashed border-[#B88704] absolute w-1/2 top-0 right-32"></div>
           </div>
-          <div className="flex lg:mt-50 border-l-4 rounded-l-full items-center p-4 border-[#B88704] relative">
+          <div className="flex lg:mt-50 border-l-4 rounded-l-full items-center p-4 border-[#B88704] relative xs:border-l-0">
             <div className="mr-6 w-20 lg:w-30 lg:h-30 2xl:w-40 2xl:h-40 rounded-full bg-[#B88704] flex items-center justify-center text-white text-2xl font-bold">
               02
             </div>
@@ -105,7 +105,7 @@ export default function DeploymentDetail() {
             <div className="absolute border-t-2 left-23 border-[#B88704] top-0 w-1/3"></div>
             <div className="border-t-2 border-dashed border-[#B88704] absolute w-1/2 top-0 right-45"></div>
           </div>
-          <div className="flex lg:mt-50 border-l-4 rounded-l-full border-[#B88704] p-6 items-center relative">
+          <div className="flex lg:mt-50 border-l-4 rounded-l-full border-[#B88704] p-6 items-center relative xs:border-l-0">
             <div className="mr-6 w-20 lg:w-30 lg:h-30 2xl:w-40 2xl:h-40 rounded-full bg-[#B88704] flex items-center justify-center text-white text-2xl font-bold">
               03
             </div>
